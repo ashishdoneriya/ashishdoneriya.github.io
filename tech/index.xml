@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Teches on My Workbook</title><link>https://ashishdoneriya.github.io/tech/</link><description>Recent content in Teches on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 04 Sep 2019 03:17:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Hive tpcds query</title><link>https://ashishdoneriya.github.io/hive-tpcds-queries.html</link><pubDate>Wed, 04 Sep 2019 03:17:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/hive-tpcds-queries.html</guid><description>&lt;p>Database :&lt;br>
+tpcds_bin_partitioned_orc_60&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">select&lt;/span> dt.d_year, item.i_brand_id brand_id, item.i_brand brand, &lt;span style="color:#66d9ef">sum&lt;/span>(ss_ext_sales_price) sum_agg &lt;span style="color:#66d9ef">from&lt;/span> date_dim dt, store_sales, item &lt;span style="color:#66d9ef">where&lt;/span> dt.d_date_sk &lt;span style="color:#f92672">=&lt;/span> store_sales.ss_sold_date_sk &lt;span style="color:#66d9ef">and&lt;/span> store_sales.ss_item_sk &lt;span style="color:#f92672">=&lt;/span> item.i_item_sk &lt;span style="color:#66d9ef">and&lt;/span> item.i_manufact_id &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">436&lt;/span> &lt;span style="color:#66d9ef">and&lt;/span> dt.d_moy&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">12&lt;/span> &lt;span style="color:#66d9ef">group&lt;/span> &lt;span style="color:#66d9ef">by&lt;/span> dt.d_year, item.i_brand, item.i_brand_id &lt;span style="color:#66d9ef">order&lt;/span> &lt;span style="color:#66d9ef">by&lt;/span> dt.d_year, sum_agg &lt;span style="color:#66d9ef">desc&lt;/span>, brand_id &lt;span style="color:#66d9ef">limit&lt;/span> &lt;span style="color:#ae81ff">100&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Go program for vocabulary</title><link>https://ashishdoneriya.github.io/go-program-vocab.html</link><pubDate>Tue, 27 Aug 2019 22:10:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/go-program-vocab.html</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-golang" data-lang="golang">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">package&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">import&lt;/span> (
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;fmt&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;io/ioutil&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;strings&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;time&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;github.com/gen2brain/beeep&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">func&lt;/span> &lt;span style="color:#a6e22e">main&lt;/span>() {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// just pass the file name&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">b&lt;/span>, &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">ioutil&lt;/span>.&lt;span style="color:#a6e22e">ReadFile&lt;/span>(&lt;span style="color:#e6db74">&amp;#34;vocabulary.txt&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">nil&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">fmt&lt;/span>.&lt;span style="color:#a6e22e">Print&lt;/span>(&lt;span style="color:#a6e22e">err&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">// convert content to a &amp;#39;string&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">content&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> string(&lt;span style="color:#a6e22e">b&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">groups&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">strings&lt;/span>.&lt;span style="color:#a6e22e">Split&lt;/span>(&lt;span style="color:#a6e22e">content&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;\n\n&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">_&lt;/span>, &lt;span style="color:#a6e22e">group&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#66d9ef">range&lt;/span> &lt;span style="color:#a6e22e">groups&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">index&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">strings&lt;/span>.&lt;span style="color:#a6e22e">Index&lt;/span>(&lt;span style="color:#a6e22e">group&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;\n&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">content&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">heading&lt;/span> &lt;span style="color:#66d9ef">string&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">index&lt;/span> &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">heading&lt;/span> = &lt;span style="color:#a6e22e">group&lt;/span>[:&lt;span style="color:#a6e22e">index&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">content&lt;/span> = &lt;span style="color:#a6e22e">group&lt;/span>[&lt;span style="color:#a6e22e">index&lt;/span>&lt;span style="color:#f92672">+&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span> : len(&lt;span style="color:#a6e22e">group&lt;/span>)]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">else&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">heading&lt;/span> = &lt;span style="color:#a6e22e">group&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">content&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">:=&lt;/span> &lt;span style="color:#a6e22e">beeep&lt;/span>.&lt;span style="color:#a6e22e">Notify&lt;/span>(&lt;span style="color:#a6e22e">heading&lt;/span>, &lt;span style="color:#a6e22e">content&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;assets/information.png&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">nil&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> panic(&lt;span style="color:#a6e22e">err&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">time&lt;/span>.&lt;span style="color:#a6e22e">Sleep&lt;/span>(&lt;span style="color:#ae81ff">90&lt;/span> &lt;span style="color:#f92672">*&lt;/span> &lt;span style="color:#a6e22e">time&lt;/span>.&lt;span style="color:#a6e22e">Second&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">err&lt;/span> = &lt;span style="color:#a6e22e">beeep&lt;/span>.&lt;span style="color:#a6e22e">Notify&lt;/span>(&lt;span style="color:#a6e22e">heading&lt;/span>, &lt;span style="color:#a6e22e">content&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;assets/information.png&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> &lt;span style="color:#a6e22e">err&lt;/span> &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#66d9ef">nil&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> panic(&lt;span style="color:#a6e22e">err&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">time&lt;/span>.&lt;span style="color:#a6e22e">Sleep&lt;/span>(&lt;span style="color:#ae81ff">90&lt;/span> &lt;span style="color:#f92672">*&lt;/span> &lt;span style="color:#a6e22e">time&lt;/span>.&lt;span style="color:#a6e22e">Second&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Short notes on Algorithms</title><link>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</link><pubDate>Sun, 25 Aug 2019 22:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</guid><description>&lt;h3 id="what-is-an-algorithm">What is an Algorithm?&lt;/h3>
+&lt;ul>
+&lt;li>An Algorithm is a sequence of steps to solve a problem.&lt;/li>
+&lt;li>An Algorithm is a set of steps of operations to solve a problem performing calculation, data processing, and automated reasoning tasks.&lt;/li>
+&lt;li>An Algorithm is the best way to represent the solution of a particular problem in a very simple and efficient way.&lt;/li>
+&lt;li>Algorithm is independent from any programming languages.&lt;/li>
+&lt;/ul>
+&lt;h3 id="what-is-analysis-of-algorithm">What is Analysis of algorithm?&lt;/h3>
+&lt;p>Analysis of algorithm is the process of analyzing the problem-solving capability of the algorithm in terms of the time and size required.&lt;/p></description></item><item><title>Some Important hive syntax</title><link>https://ashishdoneriya.github.io/important-hive-syntax.html</link><pubDate>Tue, 06 Aug 2019 03:17:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/important-hive-syntax.html</guid><description>&lt;h2 id="partitions">Partitions&lt;/h2>
+&lt;p>First set these properties&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">SET&lt;/span> hive.&lt;span style="color:#66d9ef">exec&lt;/span>.&lt;span style="color:#66d9ef">dynamic&lt;/span>.partition &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">SET&lt;/span> hive.&lt;span style="color:#66d9ef">exec&lt;/span>.&lt;span style="color:#66d9ef">dynamic&lt;/span>.partition.&lt;span style="color:#66d9ef">mode&lt;/span> &lt;span style="color:#f92672">=&lt;/span> nonstrict;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="how-to-create-partitioned-table">How to create partitioned table&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">create&lt;/span> &lt;span style="color:#66d9ef">table&lt;/span> c1_part (id int, name string, email string) partitioned &lt;span style="color:#66d9ef">by&lt;/span> (countrycode string);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="how-to-insert-data-into-partitioned-table">How to insert data into partitioned table&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">insert&lt;/span> &lt;span style="color:#66d9ef">into&lt;/span> &lt;span style="color:#66d9ef">table&lt;/span> c1_part partition(countrycode) &lt;span style="color:#66d9ef">select&lt;/span> c1.id, c1.name, c1.email, c1.countrycode &lt;span style="color:#66d9ef">from&lt;/span> c1;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="how-to-analyze-paritioned-tables">How to analyze paritioned tables&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">analyze&lt;/span> &lt;span style="color:#66d9ef">table&lt;/span> tableName partition(partitionName) compute &lt;span style="color:#66d9ef">statistics&lt;/span> noscan;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="bucketing">Bucketing&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">set&lt;/span> hive.mapred.&lt;span style="color:#66d9ef">mode&lt;/span>&lt;span style="color:#f92672">=&lt;/span>nonstrict;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">set&lt;/span> hive.enforce.bucketing&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#66d9ef">true&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">create&lt;/span> &lt;span style="color:#66d9ef">table&lt;/span> c1_buck (id int, name string, email string, countrycode string) clustered &lt;span style="color:#66d9ef">by&lt;/span> (id) &lt;span style="color:#66d9ef">into&lt;/span> &lt;span style="color:#ae81ff">10&lt;/span> buckets;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="how-to-insert-data-into-bucketed-table">How to insert data into bucketed table&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">insert&lt;/span> overwrite &lt;span style="color:#66d9ef">into&lt;/span> &lt;span style="color:#66d9ef">table&lt;/span> c1_buck &lt;span style="color:#66d9ef">select&lt;/span> c1.id, c1.name, c1.email, c1.countrycode &lt;span style="color:#66d9ef">from&lt;/span> c1;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="both-partitioning-and-bucketing">Both Partitioning and Bucketing&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">SET&lt;/span> hive.&lt;span style="color:#66d9ef">exec&lt;/span>.&lt;span style="color:#66d9ef">dynamic&lt;/span>.partition &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">SET&lt;/span> hive.&lt;span style="color:#66d9ef">exec&lt;/span>.&lt;span style="color:#66d9ef">dynamic&lt;/span>.partition.&lt;span style="color:#66d9ef">mode&lt;/span> &lt;span style="color:#f92672">=&lt;/span> nonstrict;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">set&lt;/span> hive.mapred.&lt;span style="color:#66d9ef">mode&lt;/span>&lt;span style="color:#f92672">=&lt;/span>nonstrict;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">set&lt;/span> hive.enforce.bucketing&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#66d9ef">true&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">create&lt;/span> &lt;span style="color:#66d9ef">table&lt;/span> c1_part_buck (id int, name string, email string) partitioned &lt;span style="color:#66d9ef">by&lt;/span> (countrycode string) clustered &lt;span style="color:#66d9ef">by&lt;/span> (id) &lt;span style="color:#66d9ef">into&lt;/span> &lt;span style="color:#ae81ff">10&lt;/span> buckets;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">insert&lt;/span> &lt;span style="color:#66d9ef">into&lt;/span> &lt;span style="color:#66d9ef">table&lt;/span> c1_part_buck partition(countrycode) &lt;span style="color:#66d9ef">select&lt;/span> c1.id, c1.name, c1.email, c1.countrycode &lt;span style="color:#66d9ef">from&lt;/span> c1;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="for-transactional-tables">For transactional tables&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sql" data-lang="sql">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">set&lt;/span> hive.compactor.initiator.&lt;span style="color:#66d9ef">on&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">set&lt;/span> hive.support.concurrency &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#66d9ef">true&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">set&lt;/span> hive.txn.manager &lt;span style="color:#f92672">=&lt;/span> org.apache.hadoop.hive.ql.lockmgr.DbTxnManager;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>How to create executable jar in maven</title><link>https://ashishdoneriya.github.io/maven-executable-jar.html</link><pubDate>Sun, 31 Mar 2019 03:17:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/maven-executable-jar.html</guid><description>&lt;h3 id="termiologies">Termiologies&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-xml" data-lang="xml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">&amp;lt;build&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;plugins&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;plugin&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;artifactId&amp;gt;&lt;/span>maven-assembly-plugin&lt;span style="color:#f92672">&amp;lt;/artifactId&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;configuration&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;archive&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;manifest&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;mainClass&amp;gt;&lt;/span>io.github.ashishdoneriya.Test&lt;span style="color:#f92672">&amp;lt;/mainClass&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;/manifest&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;/archive&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;descriptorRefs&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;descriptorRef&amp;gt;&lt;/span>jar-with-dependencies&lt;span style="color:#f92672">&amp;lt;/descriptorRef&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;/descriptorRefs&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;/configuration&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;executions&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;execution&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">&amp;lt;!-- this is used for inheritance merges --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;id&amp;gt;&lt;/span>make-assembly&lt;span style="color:#f92672">&amp;lt;/id&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">&amp;lt;!-- bind to the packaging phase --&amp;gt;&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;phase&amp;gt;&lt;/span>package&lt;span style="color:#f92672">&amp;lt;/phase&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;goals&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;goal&amp;gt;&lt;/span>single&lt;span style="color:#f92672">&amp;lt;/goal&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;/goals&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;/execution&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;/executions&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;/plugin&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;/plugins&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;lt;/build&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Oops Concepts</title><link>https://ashishdoneriya.github.io/oops-concepts.html</link><pubDate>Wed, 06 Mar 2019 03:17:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/oops-concepts.html</guid><description>&lt;h3 id="termiologies">Termiologies&lt;/h3>
+&lt;ol>
+&lt;li>Class&lt;/li>
+&lt;li>Object&lt;/li>
+&lt;li>Inheritence&lt;/li>
+&lt;li>Polymorphism&lt;/li>
+&lt;li>Abstraction&lt;/li>
+&lt;li>Encapsulation&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>What is a class?&lt;/strong>&lt;br>
+A class is a collection of methods and variables. It defines the data and the behaviour of a type. It is like a blueprint or template from which objects are created. A class is declared once. A class doesn&amp;rsquo;t allocated memory when it is created.&lt;/p>
+&lt;p>&lt;strong>What is an object?&lt;/strong>&lt;br>
+An object is an instance of a class. An object is created many times per requirement. Object allocates memory when it is created. An object consists of :&lt;/p></description></item><item><title>My Projects</title><link>https://ashishdoneriya.github.io/my-projects.html</link><pubDate>Wed, 06 Feb 2019 02:07:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/my-projects.html</guid><description>&lt;ol>
+&lt;li>&lt;a href="https://github.com/Impetus/jumbune">Jumbune&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ashishdoneriya/php-file-manager">PHP File Manager&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ashishdoneriya/datakeeper">Dynamic Form Builder&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ashishdoneriya/html-gallery-creator">Static Html Gallery Creator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ashishdoneriya/jekyll-button-theme">Jekyll Button Theme&lt;/a>&lt;/li>
+&lt;li>Staticman using aws-lambda&lt;/li>
+&lt;li>Marriage Garder App&lt;/li>
+&lt;/ol></description></item><item><title>TV Series</title><link>https://ashishdoneriya.github.io/tv-series.html</link><pubDate>Mon, 07 Jan 2019 22:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/tv-series.html</guid><description>&lt;h2 id="scifi">SciFi&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt5753856/">Dark&lt;/a>(SciFi) - Netflix&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt5691552/">The Orville&lt;/a>(SciFi / Comedy) - Hotstar&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt3230854/">The Expanse&lt;/a>(SciFi) - Prime&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt1190634/">The Boys&lt;/a>(SciFi / Fiction) - Prime&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt5171438/">Star Trek: Discovery&lt;/a>(SciFi) - Netflix&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt5114356/">Legion&lt;/a>(SciFi)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt4159076">Dark Matter&lt;/a>(SciFi, cancelled in the middle)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt0944947">Game of Thrones&lt;/a> - Hotstar&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt1869454/">Good Omens&lt;/a>(Fiction / Comedy) - Prime&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt6226232/">Young Sheldon&lt;/a>(Comedy) - Prime&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt2467372/">Brooklyn Nine-Nine&lt;/a> (Comedy) - Netflix&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt3032476/">Better Call Saul&lt;/a> - Netflix&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://kissanime.ru/Anime/Dragon-Ball-Z-Dub">Dragon Ball Z&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt0903747/">Breaking Bad&lt;/a> - Netflix&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="animation">Animation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.imdb.com/title/tt8271176/">Kung Fu Panda: The Paws of Destiny&lt;/a> - Prime&lt;/li>
+&lt;li>&lt;a href="https://www.imdb.com/title/tt6517102/">Castlevania&lt;/a> - Netflix&lt;/li>
+&lt;/ul></description></item><item><title>Wordpress Themes</title><link>https://ashishdoneriya.github.io/wordpress-themes.html</link><pubDate>Tue, 01 Jan 2019 02:17:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/wordpress-themes.html</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://wordpress.org/themes/button/">Button Theme&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://wordpress.org/themes/annotum-sans/">Annotum Sans&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://wordpress.org/themes/evening-sun/">Evening Sun&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://wordpress.org/themes/penumbra/">Penumbra&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://wordpress.org/themes/tender-spring/">Tender Spring&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Android Apps</title><link>https://ashishdoneriya.github.io/android-apps.html</link><pubDate>Tue, 01 Jan 2019 01:43:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/android-apps.html</guid><description>&lt;ul>
+&lt;li>100 Office Workouts&lt;/li>
+&lt;li>Advanced Download Manager&lt;/li>
+&lt;li>AirDroid&lt;/li>
+&lt;li>ApkShare&lt;/li>
+&lt;li>Backgrounds hd&lt;/li>
+&lt;li>Bhagavad Gita Sloka Gallery&lt;/li>
+&lt;li>BSPlayer&lt;/li>
+&lt;li>Business Insider&lt;/li>
+&lt;li>BusyBox&lt;/li>
+&lt;li>Google Calculator&lt;/li>
+&lt;li>Castbox&lt;/li>
+&lt;li>Debian noroot&lt;/li>
+&lt;li>Economic Times&lt;/li>
+&lt;li>edX&lt;/li>
+&lt;li>Financial Calculators&lt;/li>
+&lt;li>FitTap by DAREBEE&lt;/li>
+&lt;li>Flipboard&lt;/li>
+&lt;li>Google Podcasts&lt;/li>
+&lt;li>Highway Traffic Rider&lt;/li>
+&lt;li>Internet Speed Master&lt;/li>
+&lt;li>Journey Diary&lt;/li>
+&lt;li>Juice SSH&lt;/li>
+&lt;li>KDE Connect&lt;/li>
+&lt;li>KWallet&lt;/li>
+&lt;li>Krsna: All-in-one Krishna app&lt;/li>
+&lt;li>LastPass&lt;/li>
+&lt;li>LeafPic&lt;/li>
+&lt;li>Learn: how to invest&amp;hellip;&lt;/li>
+&lt;li>Loader Droid&lt;/li>
+&lt;li>Medium&lt;/li>
+&lt;li>Night Owl&lt;/li>
+&lt;li>NoBloat Free&lt;/li>
+&lt;li>Nostalgia NES&lt;/li>
+&lt;li>Official TWRP App&lt;/li>
+&lt;li>Open Camera&lt;/li>
+&lt;li>Outlook.com&lt;/li>
+&lt;li>Paperland live wallpaper&lt;/li>
+&lt;li>pCloud&lt;/li>
+&lt;li>Prabhpada lectures&lt;/li>
+&lt;li>Preferences Manager&lt;/li>
+&lt;li>Pulsar Music Player&lt;/li>
+&lt;li>Quickly Notification&lt;/li>
+&lt;li>S Launcher for Galaxy&lt;/li>
+&lt;li>Seedship&lt;/li>
+&lt;li>Send Anywhere&lt;/li>
+&lt;li>Shart it&lt;/li>
+&lt;li>SleepBot&lt;/li>
+&lt;li>Srimad Bhagavatam&lt;/li>
+&lt;li>Textra SMS&lt;/li>
+&lt;li>The Financial Express&lt;/li>
+&lt;li>TopNTP&lt;/li>
+&lt;li>Twilight: Blue light filter&lt;/li>
+&lt;li>Wallpaperss&lt;/li>
+&lt;li>Zero Dialer&lt;/li>
+&lt;li>Zero Sms&lt;/li>
+&lt;/ul>
+&lt;p>My Grand 2 Apps&lt;/p></description></item><item><title>Linux Distributions</title><link>https://ashishdoneriya.github.io/linux-distributions-list.html</link><pubDate>Tue, 01 Jan 2019 01:35:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/linux-distributions-list.html</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://xubuntu.org/">XUbuntu&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ubuntu.com/">Ubuntu&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://lubuntu.net/">Lubuntu&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.opensuse.org/">OpenSuse&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.slax.org/">Slax Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.debian.org/">Debian&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://elementary.io/">Elementary OS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.deepin.org/en/">Deepin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://zorinos.com/">Zorin OS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.damnsmalllinux.org/">DSL&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://puppylinux.com/">Puppy Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.aircrack-ng.org/doku.php?id=slitaz">Slitaz Aircrack-ng&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Scientific Linux&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://environmentalomics.org/bio-linux/">Bio-Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://sites.google.com/site/poseidonlinux/download">Poseidon Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://caelinux.com/CMS3/">CAElinux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.scientificlinux.org/">Scientific Linux&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://labs.fedoraproject.org/en/scientific/">Fedora Scientific&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
