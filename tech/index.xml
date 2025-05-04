@@ -131,7 +131,8 @@ tpcds_bin_partitioned_orc_60&lt;/p>
 &lt;p>&lt;strong>What is a class?&lt;/strong>&lt;br>
 A class is a collection of methods and variables. It defines the data and the behaviour of a type. It is like a blueprint or template from which objects are created. A class is declared once. A class doesn&amp;rsquo;t allocated memory when it is created.&lt;/p>
 &lt;p>&lt;strong>What is an object?&lt;/strong>&lt;br>
-An object is an instance of a class. An object is created many times per requirement. Object allocates memory when it is created. An object consists of :&lt;/p></description></item><item><title>My Projects</title><link>https://ashishdoneriya.github.io/my-projects.html</link><pubDate>Wed, 06 Feb 2019 02:07:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/my-projects.html</guid><description>&lt;ol>
+An object is an instance of a class. An object is created many times per requirement. Object allocates memory when it is created. An object consists of :&lt;/p></description></item><item><title>What is the difference between Topic and Partition in Apache Kafka</title><link>https://ashishdoneriya.github.io/topic-vs-partition-in-kafka.html</link><pubDate>Thu, 21 Feb 2019 01:43:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/topic-vs-partition-in-kafka.html</guid><description>&lt;p>Partitions in Kafka are like buckets within a topic used for better load balancing when you are dealing with large throughput where you can as many consumers as your partitions to process your data. For example if you are processing orders you can send all orders for iPad into one partition “0” and iPhones in another partition “1” of the same Orders Topic and you can have two services one processing iPhone order from partition “1” and iPad from partition “0” and also maintain ordering of messages per partition. If a consumer service goes down the another service will pickup messages from both partition until another service comes backup into same consumer group processing orders topic.
+Whereas replication factor determines how many backups you want to create for your topic in the Kafka cluster for enabling HA for your data in times of cluster losing a node due to various reasons.&lt;/p></description></item><item><title>My Projects</title><link>https://ashishdoneriya.github.io/my-projects.html</link><pubDate>Wed, 06 Feb 2019 02:07:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/my-projects.html</guid><description>&lt;ol>
 &lt;li>&lt;a href="https://github.com/Impetus/jumbune">Jumbune&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/ashishdoneriya/php-file-manager">PHP File Manager&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/ashishdoneriya/datakeeper">Dynamic Form Builder&lt;/a>&lt;/li>
@@ -188,12 +189,6 @@ An object is an instance of a class. An object is created many times per require
 &lt;ul>
 &lt;li>&lt;a href="https://www.imdb.com/title/tt8271176/">Kung Fu Panda: The Paws of Destiny&lt;/a> - Prime&lt;/li>
 &lt;li>&lt;a href="https://www.imdb.com/title/tt6517102/">Castlevania&lt;/a> - Netflix&lt;/li>
-&lt;/ul></description></item><item><title>Wordpress Themes</title><link>https://ashishdoneriya.github.io/wordpress-themes.html</link><pubDate>Tue, 01 Jan 2019 02:17:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/wordpress-themes.html</guid><description>&lt;ul>
-&lt;li>&lt;a href="https://wordpress.org/themes/button/">Button Theme&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://wordpress.org/themes/annotum-sans/">Annotum Sans&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://wordpress.org/themes/evening-sun/">Evening Sun&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://wordpress.org/themes/penumbra/">Penumbra&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://wordpress.org/themes/tender-spring/">Tender Spring&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Android Apps</title><link>https://ashishdoneriya.github.io/android-apps.html</link><pubDate>Tue, 01 Jan 2019 01:43:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/android-apps.html</guid><description>&lt;ul>
 &lt;li>100 Office Workouts&lt;/li>
 &lt;li>Advanced Download Manager&lt;/li>
