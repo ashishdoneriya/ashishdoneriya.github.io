@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Finances on My Workbook</title><link>https://ashishdoneriya.github.io/finance/</link><description>Recent content in Finances on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 06 May 2025 21:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/finance/index.xml" rel="self" type="application/rss+xml"/><item><title>How Business Cash Gets Blocked in Inventory and Receivables</title><link>https://ashishdoneriya.github.io/cash-trapped-business.html</link><pubDate>Tue, 06 May 2025 21:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/cash-trapped-business.html</guid><description>&lt;p>There was once a pharma company in Gujarat called Shakti Pharma. Founded by Rameshbhai, a no-nonsense, first-generation businessman, it made solid medicines and sold them across India.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Finances on My Workbook</title><link>https://ashishdoneriya.github.io/finance/</link><description>Recent content in Finances on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 15 May 2025 09:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/finance/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Engineering Transition Path</title><link>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</link><pubDate>Thu, 15 May 2025 09:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</guid><description>&lt;p>&lt;strong>NOTE : Copied from &lt;a href="https://github.com/InterviewReady/ai-engineering-resources">https://github.com/InterviewReady/ai-engineering-resources&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>Research papers for software engineers to transition to AI Engineering&lt;/p>
+&lt;h2 id="tokenization">Tokenization&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/1508.07909">Byte-pair Encoding&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2412.09871">Byte Latent Transformer: Patches Scale Better Than Tokens&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="vectorization">Vectorization&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/1810.04805">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2305.05665">IMAGEBIND: One Embedding Space To Bind Them All&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2308.11466">SONAR: Sentence-Level Multimodal and Language-Agnostic Representations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2401.08281">FAISS library&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2412.08821v2">Facebook Large Concept Models&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="infrastructure">Infrastructure&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/1605.08695">TensorFlow&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/deepseek-ai/3FS/blob/main/docs/design_notes.md">Deepseek filesystem&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cs.purdue.edu/homes/csjgwang/pubs/SIGMOD21_Milvus.pdf">Milvus DB&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/1702.08734">Billion Scale Similarity Search : FAISS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/1712.05889">Ray&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="core-architecture">Core Architecture&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf">Attention is All You Need&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2205.14135">FlashAttention&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/1911.02150">Multi Query Attention&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2305.13245">Grouped Query Attention&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2501.00663">Google Titans outperform Transformers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2502.05173">VideoRoPE: Rotary Position Embedding&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="mixture-of-experts">Mixture of Experts&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/1701.06538">Sparsely-Gated Mixture-of-Experts Layer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2006.16668">GShard&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/abs/2101.03961">Switch Transformers&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="rlhf">RLHF&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/1706.03741">Deep Reinforcement Learning with Human Feedback&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/1909.08593">Fine-Tuning Language Models with RHLF&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2203.02155">Training language models with RHLF&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="chain-of-thought">Chain of Thought&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2201.11903">Chain-of-Thought Prompting Elicits Reasoning in Large Language Models&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2411.14405v1/">Chain of thought&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2502.03373">Demystifying Long Chain-of-Thought Reasoning in LLMs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="reasoning">Reasoning&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2405.18512">Transformer Reasoning Capabilities&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2407.21787">Large Language Monkeys: Scaling Inference Compute with Repeated Sampling&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2408.03314">Scale model test times is better than scaling parameters&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2412.06769">Training Large Language Models to Reason in a Continuous Latent Space&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2501.12948v1">DeepSeek R1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2502.01618">A Probabilistic Inference Approach to Inference-Time Scaling of LLMs using Particle-Based Monte Carlo Methods&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2502.05171">Latent Reasoning: A Recurrent Depth Approach&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2504.13139">Syntactic and Semantic Control of Large Language Models via Sequential Monte Carlo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="optimizations">Optimizations&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2402.17764">The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2407.08608">FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2412.18653v1">ByteDance 1.58&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2501.06252">Transformer Square&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2501.09732">Inference-Time Scaling for Diffusion Models beyond Scaling Denoising Steps&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2502.06703">1b outperforms 405b&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2211.17192">Speculative Decoding&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="distillation">Distillation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/1503.02531">Distilling the Knowledge in a Neural Network&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2006.07733">BYOL - Distilled Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2104.14294">DINO&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="ssms">SSMs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2305.13048">RWKV: Reinventing RNNs for the Transformer Era&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2312.00752">Mamba&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2405.21060">Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2408.10189">Distilling Transformers to SSMs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2410.10254">LoLCATs: On Low-Rank Linearizing of Large Language Models&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2502.20339">Think Slow, Fast&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="competition-models">Competition Models&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2502.03544">Google Math Olympiad 2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2502.06807">Competitive Programming with Large Reasoning Models&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nature.com/articles/s41586-023-06747-5">Google Math Olympiad 1&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="hype-makers">Hype Makers&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2501.04682">Can AI be made to think critically&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2501.09891">Evolving Deeper LLM Thinking&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2502.07374">LLMs Can Easily Learn to Reason from Demonstrations Structure&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="hype-breakers">Hype Breakers&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2301.06627">Separating communication from intelligence&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gwern.net/doc/psychology/linguistics/2024-fedorenko.pdf">Language is not intelligence&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="image-transformers">Image Transformers&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2010.11929">Image is 16x16 word&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2103.00020">CLIP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2501.17811">deepseek image generation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="video-transformers">Video Transformers&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2103.15691">ViViT: A Video Vision Transformer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2404.08471">Joint Embedding abstractions with self-supervised video masks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2502.02492">Facebook VideoJAM ai gen&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="case-studies">Case Studies&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2402.09171">Automated Unit Test Improvement using Large Language Models at Meta&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2404.17723v1">Retrieval-Augmented Generation with Knowledge Graphs for Customer Service Question Answering&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2412.16720">OpenAI o1 System Card&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2501.12862">LLM-powered bug catchers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2501.14342">Chain-of-Retrieval Augmented Generation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bytes.swiggy.com/improving-search-relevance-in-hyperlocal-food-delivery-using-small-language-models-ecda2acc24e6">Swiggy Search&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/openai/swarm">Swarm by OpenAI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39">Netflix Foundation Models&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.anthropic.com/news/model-context-protocol">Model Context Protocol&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.uber.com/en-IN/blog/query-gpt/">uber queryGPT&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="more-resources">More Resources&lt;/h2>
+&lt;p>I manage my lists here: &lt;a href="https://interviewready.io/resources/">https://interviewready.io/resources/&lt;/a>&lt;/p></description></item><item><title>How Business Cash Gets Blocked in Inventory and Receivables</title><link>https://ashishdoneriya.github.io/cash-trapped-business.html</link><pubDate>Tue, 06 May 2025 21:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/cash-trapped-business.html</guid><description>&lt;p>There was once a pharma company in Gujarat called Shakti Pharma. Founded by Rameshbhai, a no-nonsense, first-generation businessman, it made solid medicines and sold them across India.&lt;/p>
 &lt;p>Every year, revenue grew. The sales charts looked great.
 But every time Ramesh checked his bank account at month-end, it felt like a scam.&lt;/p>
 &lt;p>&amp;ldquo;Where is the bloody cash?&amp;rdquo;&lt;/p>
