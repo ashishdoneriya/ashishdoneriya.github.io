@@ -1,4 +1,346 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Finances on My Workbook</title><link>https://ashishdoneriya.github.io/finance/</link><description>Recent content in Finances on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 15 May 2025 09:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/finance/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Engineering Transition Path</title><link>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</link><pubDate>Thu, 15 May 2025 09:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</guid><description>&lt;p>&lt;strong>NOTE : Copied from &lt;a href="https://github.com/InterviewReady/ai-engineering-resources">https://github.com/InterviewReady/ai-engineering-resources&lt;/a>&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Finances on My Workbook</title><link>https://ashishdoneriya.github.io/finance/</link><description>Recent content in Finances on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 15 May 2025 09:01:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/finance/index.xml" rel="self" type="application/rss+xml"/><item><title>System Design Resources by Interview Ready</title><link>https://ashishdoneriya.github.io/system-design-resources-interview-ready.html</link><pubDate>Thu, 15 May 2025 09:01:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/system-design-resources-interview-ready.html</guid><description>&lt;p>&lt;strong>NOTE : Copied from &lt;a href="https://github.com/InterviewReady/system-design-resources">https://github.com/InterviewReady/system-design-resources&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>These are the best resources for System Design on the Internet.&lt;/p>
+&lt;h2 id="table-of-contents">Table of Contents&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="#video-processing">Video Processing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#cluster-and-workflow-management">Cluster and Workflow Management&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#intra-service-messaging">Intra-Service Messaging&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#message-queue-antipattern">Message Queue Antipattern&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#service-mesh">Service Mesh&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#practical-system-design">Practical System Design&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#distributed-file-system">Distributed File System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#time-series-databases">Time Series Databases&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rate-limiting">Rate Limiting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#in-memory-database---redis">In Memory Database - Redis&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#network-protocols">Network Protocols&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#chess-engine-design">Chess Engine Design&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#subscription-management-system">Subscription Management System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#google-docs">Google Docs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#api-design">API Design&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#nosql-database-internals">NoSQL Database Internals&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#nosql-database-algorithms">NoSQL Database Algorithms&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#database-replication">Database Replication&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#containers-and-docker">Containers and Docker&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#capacity-estimation">Capacity Estimation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#publisher-subscriber">Publisher Subscriber&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#event-driven-architectures">Event Driven Architectures&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#software-architectures">Software Architectures&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#microservices">Microservices&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#distributed-transactions-consistency-patterns">Distributed Transactions consistency Patterns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#load-balancing">Load Balancing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#alerts-and-anomaly-detection">Alerts and Anomaly Detection&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#distributed-logging">Distributed Logging&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#metrics-and-text-search-engine">Metrics and Text Search Engine&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#single-point-of-failure">Single Point of Failure&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#location-based-services">Location Based Services&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#batch-processing">Batch Processing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#real-time-stream-processing">Real Time Stream Processing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#caching">Caching&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#distributed-consensus">Distributed Consensus&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#authorization">Authorization&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#content-delivery-network">Content Delivery Network&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#testing-distributed-systems">Testing Distributed Systems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#system-design-resources">System Design Resources&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="video-processing">Video Processing&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.egnyte.com/blog/2018/12/transcoding-how-we-serve-videos-at-scale/">Transcoding Videos at Scale&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://engineering.fb.com/ios/under-the-hood-broadcasting-live-video-to-millions/">Facebook Video Broadcasting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://netflixtechblog.com/high-quality-video-encoding-at-scale-d159db052746">Netflix Video Encoding at Scale&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://netflixtechblog.com/optimized-shot-based-encodes-now-streaming-4b9464204830">Netflix Shot based encoding&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="cluster-and-workflow-management">Cluster and Workflow Management&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://engineering.fb.com/data-center-engineering/twine/">Facebook Cluster Management&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dl.acm.org/doi/pdf/10.1145/3342195.3387524">Google Autopilot - Autoscaling&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://netflix.github.io/conductor/">Netflix Workflow Orchestration&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/spotify/luigi">Opensource Workflow Management&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://engineering.fb.com/2020/12/09/data-center-engineering/how-facebook-keeps-its-large-scale-infrastructure-hardware-up-and-running/">Meta Hardware Management&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://engineering.fb.com/2022/09/06/data-center-engineering/viewing-the-world-as-a-computer-global-capacity-management/">Meta Capacity Assignment&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.allthingsdistributed.com/2015/07/under-the-hood-of-the-amazon-ec2-container-service.html">Amazon EC2&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="intra-service-messaging">Intra-Service Messaging&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.cloudamqp.com/blog/what-is-message-queuing.html">What is a message queue&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/airbnb-engineering/avoiding-double-payments-in-a-distributed-payments-system-2981f6b070bb">AirBnb Idempotency&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://engineering.fb.com/2023/01/31/production-engineering/meta-asynchronous-computing/">Meta Async Task Computing&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="message-queue-antipattern">Message Queue Antipattern&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Database-as-IPC">DB as queue Antipattern&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://softwareengineering.stackexchange.com/questions/231410/why-database-as-queue-so-bad">Using a database as a message queue&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://mikehadlow.blogspot.com/2012/04/database-as-queue-anti-pattern.html">Anti-pattern of DB as a queue&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cloudamqp.com/blog/why-is-a-database-not-the-right-tool-for-a-queue-based-system.html">Drawbacks of DB as a queue&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="service-mesh">Service Mesh&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://akomljen.com/kubernetes-service-mesh/">Kubernetes Service Mesh&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.weave.works/blog/introduction-to-service-meshes-on-kubernetes-and-progressive-delivery">Kubernetes Sidecar&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.weave.works/blog/introduction-to-service-meshes-on-kubernetes-and-progressive-delivery">Service Mesh&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.nginx.com/nginx-service-mesh/about/what-is-nsm/">NginX Service Mesh&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.envoyproxy.io/service-mesh-data-plane-vs-control-plane-2774e720f7fc">Data Plane and Control Plane&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="practical-system-design">Practical System Design&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://spectrum.ieee.org/how-facebooks-software-engineers-prepare-messenger-for-new-years-eve">Facebook Messenger Optimisations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://highscalability.com/youtube-architecture">YouTube Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=w5WVu624fY8">YouTube scalability 2012&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">Distributed Design Patterns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://martinfowler.com/articles/break-monolith-into-microservices.html">Monolith to Microservice&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://zerodha.tech/blog/hello-world/">Zerodha Tech Stack&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="distributed-file-system">Distributed File System&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.ceph.com/en/latest/architecture/">Open Source Distributed File System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://aws.amazon.com/blogs/aws/amazon-s3-performance-tips-tricks-seattle-hiring-event/">Amazon S3 Performance hacks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://aws.amazon.com/blogs/aws/amazon-s3-object-expiration/">Amazon S3 object expiration&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="time-series-databases">Time Series Databases&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/pinterest-engineering/goku-building-a-scalable-and-high-performant-time-series-database-system-a8ff5758a181">Pinterest Time Series Database&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://eng.uber.com/aresdb/">Uber Time Series DB&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.timescale.com/blog/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c">TimeSeries Relational DB&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.vldb.org/pvldb/vol8/p1816-teller.pdf">Facebook Gorilla Time Series DB&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="rate-limiting">Rate Limiting&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://martinfowler.com/bliki/CircuitBreaker.html">Circuit Breaker Algorithm&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/uber-go/ratelimit/blob/master/ratelimit.go">Uber Rate Limiter&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="in-memory-database---redis">In Memory Database - Redis&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://redis.com/">Redis Official Documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://university.redis.com/">Learn Redis through Redis University&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/redis/redis">Redis Open Source Repo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/opstree-technology/redis-cluster-architecture-replication-sharding-and-failover-86871e783ac0">Redis Architecture&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="network-protocols">Network Protocols&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://engineering.cred.club/head-of-line-hol-blocking-in-http-1-and-http-2-50b24e9e3372">What is HTTP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.akamai.com/blog/performance/http3-and-quic-past-present-and-future">QUIC Protocol&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ee.lbl.gov/papers/congavoid.pdf">TCP Protocol algorithms&lt;/a> (First 10 pages are important)&lt;/li>
+&lt;li>&lt;a href="https://webrtc.github.io/webrtc-org/blog/2012/07/23/a-great-introduction-to-webrtc.html">WebRTC&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://datatracker.ietf.org/doc/html/rfc6455#section-1.2">WebSockets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://fb.watch/fSEbI4KHlA/">Dynamic Source Routing using QUIC&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="chess-engine-design">Chess Engine Design&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=U4ogK0MIzqk">Chess Engine Building&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="subscription-management-system">Subscription Management System&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://netflixtechblog.com/building-a-rule-based-platform-to-manage-netflix-membership-skus-at-scale-e3c0f82aa7bc">Subscription Manager&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="google-docs">Google Docs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://www.codecommit.com/blog/java/understanding-and-applying-operational-transformation">Operational Transform&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=uOFzWZrsPV0&amp;amp;list=PLX">Google Docs&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.arxiv.org/abs/2401.12945">Lumiere&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="api-design">API Design&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/airbnb-engineering/building-services-at-airbnb-part-1-c4c1d8fa811b">API Design at Airbnb&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://swagger.io/docs/specification/about/">Swagger APIs&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="nosql-database-internals">NoSQL Database Internals&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.datastax.com/en/archived/cassandra/3.0/cassandra/architecture/archIntro.html">Cassandra Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf">Google BigTable Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.allthingsdistributed.com/2007/10/amazons_dynamo.html">Amazon Dynamo DB Internals&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=HaEPXoXVf2k">Design Patterns in Amazon Dynamo DB&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=yvBR71D0nAQ">Internals of Amazon Dynamo DB&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="nosql-database-algorithms">NoSQL Database Algorithms&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://odino.org/my-favorite-data-structure-hyperloglog/">Hyperloglog Algorithm&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cs.umb.edu/~poneil/lsmtree.pdf">Log Structured Merge Tree&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/scylladb/scylla/wiki/SSTable-compaction-and-compaction-strategies">Sorted String Tables and Compaction Strategies&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.datastax.com/blog/leveled-compaction-apache-cassandra">Leveled Compaction Cassandra&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/scylladb/scylla/wiki/SSTable-compaction-and-compaction-strategies">Scylla DB Compaction&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.bmc.com/blogs/cassandra-clustering-columns-partition-composite-key/">Indexing in Cassandra&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="database-replication">Database Replication&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://dev.mysql.com/doc/refman/8.0/en/replication.html">Database replication&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://netflixtechblog.com/dblog-a-generic-change-data-capture-framework-69351fb9099b">Netflix Data replication - Change Data Capture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying">LinkedIn Logging Usecases&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.uber.com/en-IN/blog/how-ledgerstore-supports-trillions-of-indexes">Uber Trillions of indexes in LedgerStore&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="containers-and-docker">Containers and Docker&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://engineering.fb.com/developer-tools/zookeeper-twine/">Facebook Twine Containerization&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.cloudflare.com/cloud-computing-without-containers/">CloudFlare Containerization&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.docker.com/get-started/overview/#docker-architecture">Docker Architecture&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="capacity-estimation">Capacity Estimation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=modXC5IWTJI">Google Capacity Estimation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=G-lGCC4KKok">Scalability at YouTube 2012&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=-3qetLv2Yp0">Back of envelope Calculations at AWS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://static.googleusercontent.com/media/research.google.com/en//people/jeff/stanford-295-talk.pdf">Capacity Estimation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="publisher-subscriber">Publisher Subscriber&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.oracle.com/cd/B10501_01/appdev.920/a96590/adg15pub.htm">Oracle Publisher Subscriber&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://aws.amazon.com/pub-sub-messaging/">Amazon Pub Sub Messaging&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://blog.codepath.com/2013/01/06/asynchronous-processing-in-web-applications-part-2-developers-need-to-understand-message-queues/">Asynchronous processing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.enterpriseintegrationpatterns.com/patterns/conversation/RequestResponse.html">Async Request Response&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="event-driven-architectures">Event Driven Architectures&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=STKCRSUsyP0">Martin Fowler- Event Driven Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://martinfowler.com/articles/201701-event-driven.html">Event Driven Architecture&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="software-architectures">Software Architectures&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749">Hexagonal Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://alistair.cockburn.us/hexagonal-architecture/">Hexagonal architecture (Alistair Cockburn)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Code by Robert C. Martin (Uncle Bob)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://martinfowler.com/bliki/CQRS.html">CQRS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://martinfowler.com/bliki/DomainDrivenDesign.html">DomainDrivenDesign&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="microservices">Microservices&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://buttercms.com/books/microservices-for-startups/should-you-always-start-with-a-monolith/">Monolith Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://articles.microservices.com/monolithic-vs-microservices-architecture-5c4848858f59">Monoliths vs Microservices&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://highscalability.com/blog/2018/4/5/do-you-have-too-many-microservices-five-design-attributes-th.html">Microservices&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=kb-m2fasdDY">Uber Nanoservices antipattern&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://eng.uber.com/microservice-architecture/">Uber Domain oriented microservice&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="distributed-transactions-consistency-patterns">Distributed Transactions consistency Patterns&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://microservices.io/patterns/data/transactional-outbox.html">Transactional outbox&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf">SAGAS Long lived transactions (LLTs)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="load-balancing">Load Balancing&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/10494431/sticky-and-non-sticky-sessions">Load Balancer with Sticky Sessions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.netscaler.com/articles/what-is-load-balancing">NetScaler what is load balancing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.nginx.com/resources/glossary/load-balancing/">Nginx Load Balancing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://michaelnielsen.org/blog/consistent-hashing/">Consistent hashing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://netflixtechblog.com/curbing-connection-churn-in-zuul-2feb273a3598#5e4d">Minimizing connection churn&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://queue.acm.org/detail.cfm?id=3570937">Google Subsetting Algorithm&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="alerts-and-anomaly-detection">Alerts and Anomaly Detection&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://towardsdatascience.com/outlier-detection-with-isolation-forest-3d190448d45e">Outlier Detection&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://towardsdatascience.com/machine-learning-for-anomaly-detection-and-condition-monitoring-d4614e7de770">Anomaly Detection&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://eng.uber.com/argos-real-time-alerts/">Uber Real Time Monitoring and Root Cause Analysis Argos&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=12Xq9OLdQwQ&amp;amp;t=0s">Microsoft Anomaly Detection&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://engineering.fb.com/2016/05/09/core-data/introducing-fblearner-flow-facebook-s-ai-backbone/">Facebook Data Engineering&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://engineering.linkedin.com/blog/2019/06/smart-alerts-in-thirdeye--linkedins-real-time-monitoring-platfor">LinkedIn Real Time Alerting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://engineering.linkedin.com/blog/2019/isolation-forest">LinkedIn Isolation Forests&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="distributed-logging">Distributed Logging&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://eng.uber.com/distributed-tracing/">Uber Distributed Request Tracing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@Pinterest_Engineering/open-sourcing-singer-pinterests-performant-and-reliable-logging-agent-610fecf35566">Pintrest Logging&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.facebook.com/atscaleevents/videos/959344524420015/">Google Monitoring Infrastructure&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="metrics-and-text-search-engine">Metrics and Text Search Engine&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.facebook.com/watch/?v=432864835468">Facebook real-time text search engine&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/time-based.html">Elastic Search Time Based Querying&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/aggregations.html">Elastic Search Aggregation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="single-point-of-failure">Single Point of Failure&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/the-cloud-architect/patterns-for-resilient-architecture-part-3-16e8601c488e">Avoiding Single Points of Failure&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://netflixtechblog.com/active-active-for-multi-regional-resiliency-c47719f6685b">Netflix Multi-Region Availability&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/cd/E19693-01/819-0992/fjdch/index.html">Oracle Single Points of failure&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.tenereillo.com/GSLBPageOfShame.htm">DNS single point of failure 2004&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://shopify.engineering/introduction-dns-traffic-management">DNS traffic management by Shopify&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6">Sharding&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="location-based-services">Location Based Services&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.christianperone.com/2015/08/googles-s2-geometry-on-the-sphere-cells-and-hilbert-curve/">Google S2 library&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="batch-processing">Batch Processing&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf">Map Reduce Architecture&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="real-time-stream-processing">Real Time Stream Processing&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://engineering.linkedin.com/blog/2019/brooklin-open-source">LinkedIn Brooklin- Real-time data streaming&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://netflixtechblog.com/keystone-real-time-stream-processing-platform-a3ee651812a">Netflix Real Time Stream Processing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.ksqldb.io/en/latest/operate-and-deploy/how-it-works/">KSQLDB for Kafka&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://netflixtechblog.com/1-streamlining-membership-data-engineering-at-netflix-with-psyberg-f68830617dd1">Netflix Psyberg&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="caching">Caching&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/google/guava/wiki/CachesExplained">Google Guava Cache&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ben-manes/caffeine/">Caching (See the README)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html">Caching&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn589802(v%3dpandp.10)">Microsoft Caching Guide&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hazelcast.com/blog/a-hitchhikers-guide-to-caching-patterns/">Caching patterns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.uber.com/en-IN/blog/how-uber-serves-over-40-million-reads-per-second-using-an-integrated-cache">Uber&amp;rsquo;s Integrated Cache for 40M RPS&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="distributed-consensus">Distributed consensus&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://ifeanyi.co/posts/understanding-consensus/">Paxos&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://raft.github.io/">Raft&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="authorization">Authorization&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://cerbos.dev/blog/designing-an-authorization-model-for-an-enterprise">Designing an Authorization Model for an Enterprise&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.aserto.com/blog/5-laws-cloud-native-authorization">The Architectural Patterns of Cloud-native Authorization Systems&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="content-delivery-network">Content Delivery Network&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://aws.amazon.com/blogs/networking-and-content-delivery/amazon-s3-amazon-cloudfront-a-match-made-in-the-cloud/">AWS CloudFront CDN with S3&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="testing-distributed-systems">Testing Distributed Systems&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=4fFDFbi3toc">Deterministic Testing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://lamport.azurewebsites.net/tla/tla.html">TLA+ by Leslie Lamport&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jenpsen.io">Jepsen&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2>&lt;/h2>
+&lt;h2 id="system-design-resources">System Design Resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/3SyNAOy">Designing Data-Intensive Applications Book&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://interviewready.io/blog/white-papers-worth-reading-for-software-engineers">WhitePapers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://interviewready.io?source=github">InterviewReady Videos&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://interviewready.io/question-list/system-design-judge">System Design Online Judge&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>AI Engineering Transition Path</title><link>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</link><pubDate>Thu, 15 May 2025 09:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</guid><description>&lt;p>&lt;strong>NOTE : Copied from &lt;a href="https://github.com/InterviewReady/ai-engineering-resources">https://github.com/InterviewReady/ai-engineering-resources&lt;/a>&lt;/strong>&lt;/p>
 &lt;p>Research papers for software engineers to transition to AI Engineering&lt;/p>
 &lt;h2 id="tokenization">Tokenization&lt;/h2>
 &lt;ul>
