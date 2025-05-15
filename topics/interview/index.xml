@@ -352,4 +352,12 @@
 &lt;li>&lt;a href="https://interviewready.io/blog/white-papers-worth-reading-for-software-engineers">WhitePapers&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://interviewready.io?source=github">InterviewReady Videos&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://interviewready.io/question-list/system-design-judge">System Design Online Judge&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>Short notes on Algorithms</title><link>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</link><pubDate>Sun, 25 Aug 2019 22:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</guid><description>&lt;h3 id="what-is-an-algorithm">What is an Algorithm?&lt;/h3>
+&lt;ul>
+&lt;li>An Algorithm is a sequence of steps to solve a problem.&lt;/li>
+&lt;li>An Algorithm is a set of steps of operations to solve a problem performing calculation, data processing, and automated reasoning tasks.&lt;/li>
+&lt;li>An Algorithm is the best way to represent the solution of a particular problem in a very simple and efficient way.&lt;/li>
+&lt;li>Algorithm is independent from any programming languages.&lt;/li>
+&lt;/ul>
+&lt;h3 id="what-is-analysis-of-algorithm">What is Analysis of algorithm?&lt;/h3>
+&lt;p>Analysis of algorithm is the process of analyzing the problem-solving capability of the algorithm in terms of the time and size required.&lt;/p></description></item></channel></rss>
