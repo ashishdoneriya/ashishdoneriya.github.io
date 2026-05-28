@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Teches on My Workbook</title><link>https://ashishdoneriya.github.io/tech/</link><description>Recent content in Teches on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 22 Jun 2025 10:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Build Spring Boot JAR Without Local Java Using Docker</title><link>https://ashishdoneriya.github.io/build-spring-boot-jar-with-docker-no-java.html</link><pubDate>Sun, 22 Jun 2025 10:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/build-spring-boot-jar-with-docker-no-java.html</guid><description>&lt;p>If you’re working on a Spring Boot project that targets Java 17, 21, or 24, but your system only has Java 8 (or no Java at all), building the .jar with mvn clean install becomes impossible.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Teches on My Workbook</title><link>https://ashishdoneriya.github.io/tech/</link><description>Recent content in Teches on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 29 May 2026 04:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Configure Codex CLI with LM Studio as the Default Local Model Provider</title><link>https://ashishdoneriya.github.io/codex-cli-lm-studio-setup.html</link><pubDate>Fri, 29 May 2026 04:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/codex-cli-lm-studio-setup.html</guid><description>&lt;p>This guide shows how to configure Codex CLI so it uses LM Studio by default.&lt;/p>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>Install and configure:&lt;/p>
+&lt;ul>
+&lt;li>Codex CLI&lt;/li>
+&lt;li>LM Studio&lt;/li>
+&lt;li>A local model loaded in LM Studio, for example openai/gpt-oss-20b&lt;/li>
+&lt;/ul>
+&lt;p>Start the LM Studio local server and confirm it is available at:&lt;/p>
+&lt;p>http://localhost:1234/v1&lt;/p>
+&lt;p>You can verify the models endpoint:&lt;/p>
+&lt;p>curl http://localhost:1234/v1/models&lt;/p>
+&lt;p>Example response:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;data&amp;#34;&lt;/span>: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;id&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;google/gemma-4-e4b&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;model&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;owned_by&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;ashish&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;id&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;openai/gpt-oss-20b&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;model&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;owned_by&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;ashish&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;id&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;qwen/qwen3-8b&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;model&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;owned_by&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;ashish&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;list&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="required-files">Required Files&lt;/h2>
+&lt;p>This setup needs two Codex config files:&lt;/p></description></item><item><title>Build Spring Boot JAR Without Local Java Using Docker</title><link>https://ashishdoneriya.github.io/build-spring-boot-jar-with-docker-no-java.html</link><pubDate>Sun, 22 Jun 2025 10:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/build-spring-boot-jar-with-docker-no-java.html</guid><description>&lt;p>If you’re working on a Spring Boot project that targets Java 17, 21, or 24, but your system only has Java 8 (or no Java at all), building the .jar with mvn clean install becomes impossible.&lt;/p>
 &lt;h2 id="the-problem-we-want-to">The Problem: We want to&lt;/h2>
 &lt;ul>
 &lt;li>Build the Spring Boot .jar using Docker (no local Java or Maven)&lt;/li>
