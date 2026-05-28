@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technology on My Workbook</title><link>https://ashishdoneriya.github.io/topics/technology/</link><description>Recent content in Technology on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 15 May 2025 09:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/technology/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Engineering Transition Path</title><link>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</link><pubDate>Thu, 15 May 2025 09:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</guid><description>&lt;p>&lt;strong>NOTE : This content is presented exactly as it appears in InterviewReady&amp;rsquo;s AI Engineering Transition Path on &lt;a href="https://github.com/InterviewReady/ai-engineering-resources">GitHub&lt;/a>. All credit goes to the original authors.&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technology on My Workbook</title><link>https://ashishdoneriya.github.io/topics/technology/</link><description>Recent content in Technology on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 29 May 2026 04:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/technology/index.xml" rel="self" type="application/rss+xml"/><item><title>Configure Codex CLI with LM Studio as the Default Local Model Provider</title><link>https://ashishdoneriya.github.io/codex-cli-lm-studio-setup.html</link><pubDate>Fri, 29 May 2026 04:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/codex-cli-lm-studio-setup.html</guid><description>&lt;p>This guide shows how to configure Codex CLI so it uses LM Studio by default.&lt;/p>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>Install and configure:&lt;/p>
+&lt;ul>
+&lt;li>Codex CLI&lt;/li>
+&lt;li>LM Studio&lt;/li>
+&lt;li>A local model loaded in LM Studio, for example openai/gpt-oss-20b&lt;/li>
+&lt;/ul>
+&lt;p>Start the LM Studio local server and confirm it is available at:&lt;/p>
+&lt;p>http://localhost:1234/v1&lt;/p>
+&lt;p>You can verify the models endpoint:&lt;/p>
+&lt;p>curl http://localhost:1234/v1/models&lt;/p>
+&lt;p>Example response:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;data&amp;#34;&lt;/span>: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;id&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;google/gemma-4-e4b&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;model&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;owned_by&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;ashish&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;id&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;openai/gpt-oss-20b&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;model&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;owned_by&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;ashish&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;id&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;qwen/qwen3-8b&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;model&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;owned_by&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;ashish&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;list&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="required-files">Required Files&lt;/h2>
+&lt;p>This setup needs two Codex config files:&lt;/p></description></item><item><title>AI Engineering Transition Path</title><link>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</link><pubDate>Thu, 15 May 2025 09:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</guid><description>&lt;p>&lt;strong>NOTE : This content is presented exactly as it appears in InterviewReady&amp;rsquo;s AI Engineering Transition Path on &lt;a href="https://github.com/InterviewReady/ai-engineering-resources">GitHub&lt;/a>. All credit goes to the original authors.&lt;/strong>&lt;/p>
 &lt;p>Research papers for software engineers to transition to AI Engineering&lt;/p>
 &lt;h2 id="tokenization">Tokenization&lt;/h2>
 &lt;ul>
