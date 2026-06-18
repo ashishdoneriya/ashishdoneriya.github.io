@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interviews on My Workbook</title><link>https://ashishdoneriya.github.io/interview/</link><description>Recent content in Interviews on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 19 Jun 2026 01:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>Magnet: Push-based Shuffle Service for Large-scale Data Processing</title><link>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</guid><description>&lt;p>The paper &lt;strong>“Magnet: Push-based Shuffle Service for Large-scale Data Processing”&lt;/strong> is from LinkedIn.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System-Design on My Workbook</title><link>https://ashishdoneriya.github.io/topics/system-design/</link><description>Recent content in System-Design on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 19 Jun 2026 01:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/system-design/index.xml" rel="self" type="application/rss+xml"/><item><title>Magnet: Push-based Shuffle Service for Large-scale Data Processing</title><link>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</guid><description>&lt;p>The paper &lt;strong>“Magnet: Push-based Shuffle Service for Large-scale Data Processing”&lt;/strong> is from LinkedIn.&lt;/p>
 &lt;p>The useful part is this:&lt;/p>
 &lt;p>&lt;strong>Spark shuffle becomes slow at large scale because reducers read billions of tiny shuffle blocks from disk/network. Magnet fixes that by converting tiny fragmented shuffle blocks into larger merged blocks before reducers fetch them.&lt;/strong>&lt;/p>
 &lt;h2 id="core-problem">Core Problem&lt;/h2>
@@ -22,12 +22,4 @@
 &lt;li>&lt;a href="https://github.com/CodingChallengesFYI/SharedSolutions">CodingChallengesFYI | Problems&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/papers-we-love/papers-we-love">How to read academy papers&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels">Consistency Theory&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Short notes on Algorithms</title><link>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</link><pubDate>Sun, 25 Aug 2019 22:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</guid><description>&lt;h3 id="what-is-an-algorithm">What is an Algorithm?&lt;/h3>
-&lt;ul>
-&lt;li>An Algorithm is a sequence of steps to solve a problem.&lt;/li>
-&lt;li>An Algorithm is a set of steps of operations to solve a problem performing calculation, data processing, and automated reasoning tasks.&lt;/li>
-&lt;li>An Algorithm is the best way to represent the solution of a particular problem in a very simple and efficient way.&lt;/li>
-&lt;li>Algorithm is independent from any programming languages.&lt;/li>
-&lt;/ul>
-&lt;h3 id="what-is-analysis-of-algorithm">What is Analysis of algorithm?&lt;/h3>
-&lt;p>Analysis of algorithm is the process of analyzing the problem-solving capability of the algorithm in terms of the time and size required.&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
