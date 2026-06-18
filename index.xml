@@ -25,6 +25,7 @@
 &lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels">Consistency Theory&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/">Design Patterns&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.enterpriseintegrationpatterns.com/ramblings/eip1_examples_updated.html">Enterprise Integration Patterns&lt;/a>&lt;/li>
+&lt;li>Transaction Patterns&lt;/li>
 &lt;/ul>
 &lt;h2 id="low-level">Low Level&lt;/h2>
 &lt;ul>
