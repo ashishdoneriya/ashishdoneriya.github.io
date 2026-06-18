@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System-Design on My Workbook</title><link>https://ashishdoneriya.github.io/topics/system-design/</link><description>Recent content in System-Design on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 19 Jun 2026 01:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/system-design/index.xml" rel="self" type="application/rss+xml"/><item><title>Magnet: Push-based Shuffle Service for Large-scale Data Processing</title><link>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</guid><description>&lt;p>The paper &lt;strong>“Magnet: Push-based Shuffle Service for Large-scale Data Processing”&lt;/strong> is from LinkedIn.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Design on My Workbook</title><link>https://ashishdoneriya.github.io/topics/system-design/</link><description>Recent content in System Design on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 19 Jun 2026 01:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/system-design/index.xml" rel="self" type="application/rss+xml"/><item><title>Magnet: Push-based Shuffle Service for Large-scale Data Processing</title><link>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</guid><description>&lt;p>The paper &lt;strong>“Magnet: Push-based Shuffle Service for Large-scale Data Processing”&lt;/strong> is from LinkedIn.&lt;/p>
 &lt;p>The useful part is this:&lt;/p>
 &lt;p>&lt;strong>Spark shuffle becomes slow at large scale because reducers read billions of tiny shuffle blocks from disk/network. Magnet fixes that by converting tiny fragmented shuffle blocks into larger merged blocks before reducers fetch them.&lt;/strong>&lt;/p>
 &lt;h2 id="core-problem">Core Problem&lt;/h2>
@@ -8,7 +8,8 @@
 &lt;li>“Network is slow”&lt;/li>
 &lt;/ul>
 &lt;p>The real problem is:&lt;/p>
-&lt;p>&lt;strong>Tiny random reads.&lt;/strong>&lt;/p></description></item><item><title>System Design Resources</title><link>https://ashishdoneriya.github.io/system-design-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/system-design-resources.html</guid><description>&lt;ul>
+&lt;p>&lt;strong>Tiny random reads.&lt;/strong>&lt;/p></description></item><item><title>System Design Resources</title><link>https://ashishdoneriya.github.io/system-design-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/system-design-resources.html</guid><description>&lt;h2 id="high-level">High Level&lt;/h2>
+&lt;ul>
 &lt;li>&lt;a href="https://github.com/donnemartin/system-design-primer">System Design Primer&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/arpitbbhayani/system-design-questions">Arpit Bhayani System Design Resources&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/InterviewReady/system-design-resource">Interview Ready&lt;/a>&lt;/li>
@@ -22,4 +23,8 @@
 &lt;li>&lt;a href="https://github.com/CodingChallengesFYI/SharedSolutions">CodingChallengesFYI | Problems&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/papers-we-love/papers-we-love">How to read academy papers&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels">Consistency Theory&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="low-level">Low Level&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/himanshukr-nsit/Object-Oriented-Design-Pattern-Interview">https://github.com/himanshukr-nsit/Object-Oriented-Design-Pattern-Interview&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
