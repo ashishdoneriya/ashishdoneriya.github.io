@@ -24,14 +24,49 @@
 &lt;li>&lt;a href="https://github.com/papers-we-love/papers-we-love">How to read academy papers&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels">Consistency Theory&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/">Design Patterns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.enterpriseintegrationpatterns.com/ramblings/eip1_examples_updated.html">Enterprise Integration Patterns&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="low-level">Low Level&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/himanshukr-nsit/Object-Oriented-Design-Pattern-Interview">https://github.com/himanshukr-nsit/Object-Oriented-Design-Pattern-Interview&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/tssovi/grokking-the-object-oriented-design-interview">https://github.com/tssovi/grokking-the-object-oriented-design-interview&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/CodingChallengesFYI/SharedSolutions">https://github.com/CodingChallengesFYI/SharedSolutions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/coding-parrot/Low-Level-Design">https://github.com/coding-parrot/Low-Level-Design&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/prasadgujar/low-level-design-primer">https://github.com/prasadgujar/low-level-design-primer&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="roadmaps">Roadmaps&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/nilbuild/developer-roadmap">https://github.com/nilbuild/developer-roadmap&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="unique-problems">Unique Problems&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://systemdesign.one/distributed-counter-system-design/">Distributed Counter&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-papers">Research Papers&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf">Google File System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf">BigTable&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/blog/products/storage-data-transfer/a-peek-behind-colossus-googles-file-system">Colossus - GFS Successor&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf">Chubby Lock Service&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf">Spanner: Google’s Globally-Distributed Database&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/papers/dapper-2010-1.pdf">Dapper, a Large-Scale Distributed Systems Tracing Infrastructure&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://15799.courses.cs.cmu.edu/fall2013/static/papers/p135-malewicz.pdf">Pregel: A System for Large-Scale Graph Processing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.vldb.org/pvldb/vol14/p2986-sankaranarayanan.pdf">Napa: Powering Scalable Data Warehousing with Robust Query Performance at Google&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf">TensorFlow: A System for Large-Scale Machine Learning&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://assets.amazon.science/dc/2b/4ef2b89649f9a393d37d3e042f4e/amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases.pdf">Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf">Dynamo: Amazon’s Highly Available Key-value Store&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.foundationdb.org/files/fdb-paper.pdf">FoundationDB: A Distributed Unbundled Transactional Key Value Store&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2209.07663">Monolith: Real Time Recommendation System With Collisionless Embedding Table&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf">Scalability! But at what COST?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.vldb.org/pvldb/vol8/p1816-teller.pdf">Gorilla: A Fast, Scalable, In-Memory Time Series Database&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf">Cassandra - A Decentralized Structured Storage System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cidrdb.org/cidr2023/papers/p83-yadav.pdf">FlexiRaft: Flexible Quorums with Raft&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf">Scaling Memcache at Facebook&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dl.acm.org/doi/pdf/10.1145/3517745.3561430">A Microscopic View of Bursts, Buffer Contention, and Loss in Data Centers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf">TAO: Facebook’s Distributed Data Store for the Social Graph&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2010.09974">Scalable Statistical Root Cause Analysis on App Telemetry&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thrift.apache.org/static/files/thrift-20070401.pdf">Thrift: Scalable Cross-Language Services Implementation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.usenix.org/system/files/osdi23-saokar.pdf">ServiceRouter: Hyperscale and Minimal Cost Service Mesh at Meta&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://notes.stephenholiday.com/Kafka.pdf">Kafka: a Distributed Messaging System for Log Processing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://asterios.katsifodimos.com/assets/publications/flink-deb.pdf">Apache Flink: Stream and Batch Processing in a Single Engine&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
