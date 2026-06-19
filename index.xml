@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Workbook</title><link>https://ashishdoneriya.github.io/</link><description>Recent content on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 19 Jun 2026 01:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Magnet: Push-based Shuffle Service for Large-scale Data Processing</title><link>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</guid><description>&lt;p>The paper &lt;strong>“Magnet: Push-based Shuffle Service for Large-scale Data Processing”&lt;/strong> is from LinkedIn.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Workbook</title><link>https://ashishdoneriya.github.io/</link><description>Recent content on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 19 Jun 2026 01:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>DSA Algo Resources</title><link>https://ashishdoneriya.github.io/dsa-algo-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/dsa-algo-resources.html</guid><description>&lt;h2 id="practice">Practice&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://takeuforward.org/">Striver Sheets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.naukri.com/code360/problems">code360&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://leetcode.com/">Leetcode&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="learning">Learning&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p">Anuj Kumar Sharma DSA Complete&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jwasham/coding-interview-university">jwasham/coding-interview-university&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/@abdul_bari">Abdul Bari&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go">Aditya Version - Dynamic Programming&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="articles">Articles&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/free-code-camp/an-intro-to-algorithms-dynamic-programming-dd00873362bb">An intro to Algorithms&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/better-programming/a-practical-introduction-to-big-o-a9f9c416aaaf">A Practical Introduction to Big O&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://interviewnoodle.com/the-ultimate-strategy-to-preparing-for-the-coding-interview-ee9f7eb439f3">The Ultimate Strategy for Preparing for a Coding Interview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Introsort">Introsort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Block_sort">Block sort&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Magnet: Push-based Shuffle Service for Large-scale Data Processing</title><link>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</guid><description>&lt;p>The paper &lt;strong>“Magnet: Push-based Shuffle Service for Large-scale Data Processing”&lt;/strong> is from LinkedIn.&lt;/p>
 &lt;p>The useful part is this:&lt;/p>
 &lt;p>&lt;strong>Spark shuffle becomes slow at large scale because reducers read billions of tiny shuffle blocks from disk/network. Magnet fixes that by converting tiny fragmented shuffle blocks into larger merged blocks before reducers fetch them.&lt;/strong>&lt;/p>
 &lt;h2 id="core-problem">Core Problem&lt;/h2>
@@ -21,6 +41,7 @@
 &lt;li>&lt;a href="https://github.com/binhnguyennus/awesome-scalability">binhnguyennus | Important Articles/Algos/Problems&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/ashishps1/awesome-system-design-resources">ashishps1 | Articles/Problems&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/CodingChallengesFYI/SharedSolutions">CodingChallengesFYI | Problems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/systemdesign42/system-design-academy">systemdesign42 | Theory/Problems&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/papers-we-love/papers-we-love">How to read academy papers&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels">Consistency Theory&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/">Design Patterns&lt;/a>&lt;/li>

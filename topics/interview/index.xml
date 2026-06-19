@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interview on My Workbook</title><link>https://ashishdoneriya.github.io/topics/interview/</link><description>Recent content in Interview on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 25 Aug 2019 22:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>Short notes on Algorithms</title><link>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</link><pubDate>Sun, 25 Aug 2019 22:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</guid><description>&lt;h3 id="what-is-an-algorithm">What is an Algorithm?&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interview on My Workbook</title><link>https://ashishdoneriya.github.io/topics/interview/</link><description>Recent content in Interview on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 19 Jun 2026 01:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>DSA Algo Resources</title><link>https://ashishdoneriya.github.io/dsa-algo-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/dsa-algo-resources.html</guid><description>&lt;h2 id="practice">Practice&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://takeuforward.org/">Striver Sheets&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.naukri.com/code360/problems">code360&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://leetcode.com/">Leetcode&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="learning">Learning&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p">Anuj Kumar Sharma DSA Complete&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jwasham/coding-interview-university">jwasham/coding-interview-university&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/@abdul_bari">Abdul Bari&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go">Aditya Version - Dynamic Programming&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="articles">Articles&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/free-code-camp/an-intro-to-algorithms-dynamic-programming-dd00873362bb">An intro to Algorithms&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/better-programming/a-practical-introduction-to-big-o-a9f9c416aaaf">A Practical Introduction to Big O&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://interviewnoodle.com/the-ultimate-strategy-to-preparing-for-the-coding-interview-ee9f7eb439f3">The Ultimate Strategy for Preparing for a Coding Interview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Introsort">Introsort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Block_sort">Block sort&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Magnet: Push-based Shuffle Service for Large-scale Data Processing</title><link>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</guid><description>&lt;p>The paper &lt;strong>“Magnet: Push-based Shuffle Service for Large-scale Data Processing”&lt;/strong> is from LinkedIn.&lt;/p>
+&lt;p>The useful part is this:&lt;/p>
+&lt;p>&lt;strong>Spark shuffle becomes slow at large scale because reducers read billions of tiny shuffle blocks from disk/network. Magnet fixes that by converting tiny fragmented shuffle blocks into larger merged blocks before reducers fetch them.&lt;/strong>&lt;/p>
+&lt;h2 id="core-problem">Core Problem&lt;/h2>
+&lt;p>The central problem is not:&lt;/p>
+&lt;ul>
+&lt;li>“Spark is slow”&lt;/li>
+&lt;li>“Network is slow”&lt;/li>
+&lt;/ul>
+&lt;p>The real problem is:&lt;/p>
+&lt;p>&lt;strong>Tiny random reads.&lt;/strong>&lt;/p></description></item><item><title>System Design Resources</title><link>https://ashishdoneriya.github.io/system-design-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/system-design-resources.html</guid><description>&lt;h2 id="high-level">High Level&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/donnemartin/system-design-primer">System Design Primer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/arpitbbhayani/system-design-questions">Arpit Bhayani System Design Resources&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/InterviewReady/system-design-resource">Interview Ready&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/javabuddy/best-system-design-resources">JavaBuddy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/shashank88/system_design">shashank88&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/checkcheckzz/system-design-interview">checkcheckzz&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/naniroot/naniz-hugo-site/blob/master/content/posts/system_design_interviews_cheatsheet.md">naniroot | Important Algorithms&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ByteByteGoHq/system-design-101">ByteByteGo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/binhnguyennus/awesome-scalability">binhnguyennus | Important Articles/Algos/Problems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/ashishps1/awesome-system-design-resources">ashishps1 | Articles/Problems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/CodingChallengesFYI/SharedSolutions">CodingChallengesFYI | Problems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/systemdesign42/system-design-academy">systemdesign42 | Theory/Problems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/papers-we-love/papers-we-love">How to read academy papers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels">Consistency Theory&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/">Design Patterns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.enterpriseintegrationpatterns.com/ramblings/eip1_examples_updated.html">Enterprise Integration Patterns&lt;/a>&lt;/li>
+&lt;li>Transaction Patterns&lt;/li>
+&lt;/ul>
+&lt;h2 id="low-level">Low Level&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/himanshukr-nsit/Object-Oriented-Design-Pattern-Interview">https://github.com/himanshukr-nsit/Object-Oriented-Design-Pattern-Interview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/tssovi/grokking-the-object-oriented-design-interview">https://github.com/tssovi/grokking-the-object-oriented-design-interview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/CodingChallengesFYI/SharedSolutions">https://github.com/CodingChallengesFYI/SharedSolutions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/coding-parrot/Low-Level-Design">https://github.com/coding-parrot/Low-Level-Design&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/prasadgujar/low-level-design-primer">https://github.com/prasadgujar/low-level-design-primer&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="roadmaps">Roadmaps&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/nilbuild/developer-roadmap">https://github.com/nilbuild/developer-roadmap&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="unique-problems">Unique Problems&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://systemdesign.one/distributed-counter-system-design/">Distributed Counter&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="research-papers">Research Papers&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf">Google File System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf">BigTable&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cloud.google.com/blog/products/storage-data-transfer/a-peek-behind-colossus-googles-file-system">Colossus - GFS Successor&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf">Chubby Lock Service&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf">Spanner: Google’s Globally-Distributed Database&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/papers/dapper-2010-1.pdf">Dapper, a Large-Scale Distributed Systems Tracing Infrastructure&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://15799.courses.cs.cmu.edu/fall2013/static/papers/p135-malewicz.pdf">Pregel: A System for Large-Scale Graph Processing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.vldb.org/pvldb/vol14/p2986-sankaranarayanan.pdf">Napa: Powering Scalable Data Warehousing with Robust Query Performance at Google&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf">TensorFlow: A System for Large-Scale Machine Learning&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://assets.amazon.science/dc/2b/4ef2b89649f9a393d37d3e042f4e/amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases.pdf">Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf">Dynamo: Amazon’s Highly Available Key-value Store&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.foundationdb.org/files/fdb-paper.pdf">FoundationDB: A Distributed Unbundled Transactional Key Value Store&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2209.07663">Monolith: Real Time Recommendation System With Collisionless Embedding Table&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf">Scalability! But at what COST?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.vldb.org/pvldb/vol8/p1816-teller.pdf">Gorilla: A Fast, Scalable, In-Memory Time Series Database&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf">Cassandra - A Decentralized Structured Storage System&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cidrdb.org/cidr2023/papers/p83-yadav.pdf">FlexiRaft: Flexible Quorums with Raft&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf">Scaling Memcache at Facebook&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dl.acm.org/doi/pdf/10.1145/3517745.3561430">A Microscopic View of Bursts, Buffer Contention, and Loss in Data Centers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf">TAO: Facebook’s Distributed Data Store for the Social Graph&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://arxiv.org/pdf/2010.09974">Scalable Statistical Root Cause Analysis on App Telemetry&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://thrift.apache.org/static/files/thrift-20070401.pdf">Thrift: Scalable Cross-Language Services Implementation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.usenix.org/system/files/osdi23-saokar.pdf">ServiceRouter: Hyperscale and Minimal Cost Service Mesh at Meta&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://notes.stephenholiday.com/Kafka.pdf">Kafka: a Distributed Messaging System for Log Processing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://asterios.katsifodimos.com/assets/publications/flink-deb.pdf">Apache Flink: Stream and Batch Processing in a Single Engine&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Short notes on Algorithms</title><link>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</link><pubDate>Sun, 25 Aug 2019 22:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</guid><description>&lt;h3 id="what-is-an-algorithm">What is an Algorithm?&lt;/h3>
 &lt;ul>
 &lt;li>An Algorithm is a sequence of steps to solve a problem.&lt;/li>
 &lt;li>An Algorithm is a set of steps of operations to solve a problem performing calculation, data processing, and automated reasoning tasks.&lt;/li>
