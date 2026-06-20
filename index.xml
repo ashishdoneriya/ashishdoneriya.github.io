@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Workbook</title><link>https://ashishdoneriya.github.io/</link><description>Recent content on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 19 Jun 2026 01:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>DSA Algo Resources</title><link>https://ashishdoneriya.github.io/dsa-algo-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/dsa-algo-resources.html</guid><description>&lt;h2 id="practice">Practice&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Workbook</title><link>https://ashishdoneriya.github.io/</link><description>Recent content on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 20 Jun 2026 01:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Java Resources</title><link>https://ashishdoneriya.github.io/java-resources.html</link><pubDate>Sat, 20 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/java-resources.html</guid><description>&lt;h2 id="articles">Articles&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/HugoMatilla/Effective-JAVA-Summary">Effective Java Summary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.jrebel.com/blog/solid-principles-in-java">SOLID Principles&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/platform-engineer/understanding-jvm-architecture-22c0ddf09722">JVM Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/javamadetranquil/jvm-architecture-29f6ab33e208">JVM Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.infoworld.com/article/2338644/all-about-java-class-loaders.html">Java Classloaders&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/3849634/static-allocation-in-java-heap-stack-and-permanent-generation">Java Heap&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html">G1 Garbage Collector&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=88E86quLmQA">ZGC Garbage Collector&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jenkov.com/tutorials/java-util-concurrent/index.html">Java Concurrency&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://web.mit.edu/6.005/www/fa15/classes/23-locks/">Locks and Synchronization&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://quarkus.io/guides/virtual-threads">Virtual Threads&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://javarevisited.blogspot.com/2015/05/top-10-java-multithreading-and.html">Multithreading Best Practices&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://javatechonline.com/singleton-design-pattern-in-java-with-all-scenarios">Singleton Design Pattern&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="toolslibraries">Tools/Libraries&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://java-decompiler.github.io/#jd-gui-download">Java Decompiler&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://modelmapper.org/">Model Mapper&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="youtube">Youtube&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/c/JavaBrainsChannel/videos">Java Brains&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>DSA Algo Resources</title><link>https://ashishdoneriya.github.io/dsa-algo-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/dsa-algo-resources.html</guid><description>&lt;h2 id="practice">Practice&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://takeuforward.org/">Striver Sheets&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.naukri.com/code360/problems">code360&lt;/a>&lt;/li>
@@ -889,6 +913,7 @@ The tribunal failed to consider the entire gamut of data, documents and evidence
 &lt;li>&lt;a href="https://pipl.com/">Pipl | People Search&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://pdfbooks.ourhindi.com/">Free Hindi Books&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://consumerhelpline.gov.in/">Consumer Forum India&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://famelack.com/">Free Live TV&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="cloud">Cloud&lt;/h2>
 &lt;ul>
