@@ -2,17 +2,25 @@
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/HugoMatilla/Effective-JAVA-Summary">Effective Java Summary&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.jrebel.com/blog/solid-principles-in-java">SOLID Principles&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/deployment/jar/index.html">Packaging Programs in JAR Files&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/cd/E19455-01/806-3461/6jck06gqd/index.html">JRE&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://medium.com/platform-engineer/understanding-jvm-architecture-22c0ddf09722">JVM Architecture&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://medium.com/javamadetranquil/jvm-architecture-29f6ab33e208">JVM Architecture&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.infoworld.com/article/2338644/all-about-java-class-loaders.html">Java Classloaders&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://stackoverflow.com/questions/3849634/static-allocation-in-java-heap-stack-and-permanent-generation">Java Heap&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html">G1 Garbage Collector&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.youtube.com/watch?v=88E86quLmQA">ZGC Garbage Collector&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.baeldung.com/java-concurrency">Java Concurrency Series&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://jenkov.com/tutorials/java-util-concurrent/index.html">Java Concurrency&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jenkov.com/tutorials/java-util-concurrent/index.html">Java Concurrency Utilities&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://web.mit.edu/6.005/www/fa15/classes/23-locks/">Locks and Synchronization&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://quarkus.io/guides/virtual-threads">Virtual Threads&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html">Concurrency&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://javarevisited.blogspot.com/2015/05/top-10-java-multithreading-and.html">Multithreading Best Practices&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://javatechonline.com/singleton-design-pattern-in-java-with-all-scenarios">Singleton Design Pattern&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.geeksforgeeks.org/system-design/java-design-patterns/">Java Design Patterns&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.baeldung.com/java-externalizable">Externalizable Interface&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jenkov.com/tutorials/java-collections/index.html">Java Collections&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="toolslibraries">Tools/Libraries&lt;/h2>
 &lt;ul>
@@ -22,6 +30,22 @@
 &lt;h2 id="youtube">Youtube&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://www.youtube.com/c/JavaBrainsChannel/videos">Java Brains&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="questions-to-clear">Questions to Clear&lt;/h2>
+&lt;ul>
+&lt;li>What is Hotspot?&lt;/li>
+&lt;/ul>
+&lt;h2 id="interview-questions">Interview Questions&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.glassdoor.co.in/Interview/senior-java-developer-interview-questions-SRCH_KO0,21.htm">Glassdoor&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.java67.com/2013/07/15-advanced-core-java-interview-questions-answers-senior-experienced-5-6-years-programmers-developers.html">Questions for experienced developers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://resources.workable.com/senior-java-developer-interview-questions">Senior Java developer interview questions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.interviewcake.com/java-interview-questions">https://www.interviewcake.com/java-interview-questions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="websites">Websites&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://medium.com/javarevisited">Java Revisited&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jenkov.com/tutorials/java-collections/index.html">&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>DSA Algo Resources</title><link>https://ashishdoneriya.github.io/dsa-algo-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/dsa-algo-resources.html</guid><description>&lt;h2 id="practice">Practice&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://takeuforward.org/">Striver Sheets&lt;/a>&lt;/li>
@@ -79,6 +103,7 @@
 &lt;li>&lt;a href="https://github.com/CodingChallengesFYI/SharedSolutions">https://github.com/CodingChallengesFYI/SharedSolutions&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/coding-parrot/Low-Level-Design">https://github.com/coding-parrot/Low-Level-Design&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/prasadgujar/low-level-design-primer">https://github.com/prasadgujar/low-level-design-primer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/javarevisited/25-software-design-interview-questions-to-crack-any-programming-and-technical-interviews-4b8237942db0">25 Software Design Interview Questions to Crack Any Programming and Technical Interviews&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="roadmaps">Roadmaps&lt;/h2>
 &lt;ul>
