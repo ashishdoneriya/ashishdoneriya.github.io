@@ -2,6 +2,7 @@
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/HugoMatilla/Effective-JAVA-Summary">Effective Java Summary&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.jrebel.com/blog/solid-principles-in-java">SOLID Principles&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/">SOLID Principles&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/deployment/jar/index.html">Packaging Programs in JAR Files&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://docs.oracle.com/cd/E19455-01/806-3461/6jck06gqd/index.html">JRE&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://medium.com/platform-engineer/understanding-jvm-architecture-22c0ddf09722">JVM Architecture&lt;/a>&lt;/li>
@@ -45,7 +46,7 @@
 &lt;h2 id="websites">Websites&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://medium.com/javarevisited">Java Revisited&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://jenkov.com/tutorials/java-collections/index.html">&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://zetcode.com/java/">Zetcode&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="spring-boot">Spring Boot&lt;/h2>
 &lt;ul>
@@ -53,11 +54,24 @@
 &lt;li>&lt;a href="https://www.baeldung.com/spring-open-session-in-view">Spring&amp;rsquo;s Open Session in View&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.callicoder.com/spring-boot-websocket-chat-example/">Building a chat application with Spring Boot and WebSocket&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/spring-cloud-series">Spring Cloud Series&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Software Engineering Resources</title><link>https://ashishdoneriya.github.io/software-engineering-resources.html</link><pubDate>Sat, 20 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/software-engineering-resources.html</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture">What is Enterprise Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture_framework">What is Enterprise Architecture Framework&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://obamawhitehouse.archives.gov/omb/e-gov/FEA">Federal Enterprise Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.gartner.com/en/doc/enterprise-architecture-function-primer-for-2023">Enterprise Architecture Function Primer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://publications.opengroup.org/standards/togaf">Open Group | Architecture Certification&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.geeksforgeeks.org/software-engineering/kanban-agile-methodology/">Kanban&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.levels.fyi/t/software-engineer/locations/india">Levels.fyi | Salaries&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>DSA Algo Resources</title><link>https://ashishdoneriya.github.io/dsa-algo-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/dsa-algo-resources.html</guid><description>&lt;h2 id="practice">Practice&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://takeuforward.org/">Striver Sheets&lt;/a>&lt;/li>
+&lt;li>&lt;strong>&lt;a href="https://takeuforward.org/">Striver Sheets&lt;/a>&lt;/strong>&lt;/li>
 &lt;li>&lt;a href="https://www.naukri.com/code360/problems">code360&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://leetcode.com/">Leetcode&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cses.fi/problemset/list/">CSES&lt;/a>&lt;/li>
+&lt;li>[Interview]&lt;/li>
+&lt;li>&lt;a href="https://www.geeksforgeeks.org/dsa/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/">Must Do Coding Interview Questions for MAANG Companies&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.programiz.com/dsa/getting-started">DSA Basics&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="learning">Learning&lt;/h2>
 &lt;ul>
