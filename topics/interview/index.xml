@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interview on My Workbook</title><link>https://ashishdoneriya.github.io/topics/interview/</link><description>Recent content in Interview on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 20 Jun 2026 01:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>Java Resources</title><link>https://ashishdoneriya.github.io/java-resources.html</link><pubDate>Sat, 20 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/java-resources.html</guid><description>&lt;h2 id="articles">Articles&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interview on My Workbook</title><link>https://ashishdoneriya.github.io/topics/interview/</link><description>Recent content in Interview on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 20 Jun 2026 02:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>Software Engineering Resources</title><link>https://ashishdoneriya.github.io/software-engineering-resources.html</link><pubDate>Sat, 20 Jun 2026 02:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/software-engineering-resources.html</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture">What is Enterprise Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture_framework">What is Enterprise Architecture Framework&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://obamawhitehouse.archives.gov/omb/e-gov/FEA">Federal Enterprise Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.gartner.com/en/doc/enterprise-architecture-function-primer-for-2023">Enterprise Architecture Function Primer&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://publications.opengroup.org/standards/togaf">Open Group | Architecture Certification&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.geeksforgeeks.org/software-engineering/kanban-agile-methodology/">Kanban&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.levels.fyi/t/software-engineer/locations/india">Levels.fyi | Salaries&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="career-gap">Career Gap&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.learnbay.co/">Learnbay&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.mygreatlearning.com/">Great Learning&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="freelancing">Freelancing&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.upwork.com/">Upwork&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.topcoder.com/">TopCoder&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Java Resources</title><link>https://ashishdoneriya.github.io/java-resources.html</link><pubDate>Sat, 20 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/java-resources.html</guid><description>&lt;h2 id="articles">Articles&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/HugoMatilla/Effective-JAVA-Summary">Effective Java Summary&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.jrebel.com/blog/solid-principles-in-java">SOLID Principles&lt;/a>&lt;/li>
@@ -56,25 +75,6 @@
 &lt;li>&lt;a href="https://www.callicoder.com/spring-boot-websocket-chat-example/">Building a chat application with Spring Boot and WebSocket&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/spring-cloud-series">Spring Cloud Series&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://howtodoinjava.com/spring-boot/spring-boot/">Spring Boot Tutorial&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Software Engineering Resources</title><link>https://ashishdoneriya.github.io/software-engineering-resources.html</link><pubDate>Sat, 20 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/software-engineering-resources.html</guid><description>&lt;ul>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture">What is Enterprise Architecture&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture_framework">What is Enterprise Architecture Framework&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://obamawhitehouse.archives.gov/omb/e-gov/FEA">Federal Enterprise Architecture&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.gartner.com/en/doc/enterprise-architecture-function-primer-for-2023">Enterprise Architecture Function Primer&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://publications.opengroup.org/standards/togaf">Open Group | Architecture Certification&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.geeksforgeeks.org/software-engineering/kanban-agile-methodology/">Kanban&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.levels.fyi/t/software-engineer/locations/india">Levels.fyi | Salaries&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="career-gap">Career Gap&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.learnbay.co/">Learnbay&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.mygreatlearning.com/">Great Learning&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="freelancing">Freelancing&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.upwork.com/">Upwork&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.topcoder.com/">TopCoder&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>DSA Algo Resources</title><link>https://ashishdoneriya.github.io/dsa-algo-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/dsa-algo-resources.html</guid><description>&lt;h2 id="practice">Practice&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://takeuforward.org/">Striver Sheets&lt;/a>&lt;/strong>&lt;/li>
