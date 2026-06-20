@@ -31,6 +31,7 @@
 &lt;h2 id="youtube">Youtube&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://www.youtube.com/c/JavaBrainsChannel/videos">Java Brains&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/channel/UCiz26UeGvcTy4_M3Zhgk7FQ/playlists">Defog Tech&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="questions-to-clear">Questions to Clear&lt;/h2>
 &lt;ul>
@@ -54,6 +55,7 @@
 &lt;li>&lt;a href="https://www.baeldung.com/spring-open-session-in-view">Spring&amp;rsquo;s Open Session in View&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.callicoder.com/spring-boot-websocket-chat-example/">Building a chat application with Spring Boot and WebSocket&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.baeldung.com/spring-cloud-series">Spring Cloud Series&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://howtodoinjava.com/spring-boot/spring-boot/">Spring Boot Tutorial&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Software Engineering Resources</title><link>https://ashishdoneriya.github.io/software-engineering-resources.html</link><pubDate>Sat, 20 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/software-engineering-resources.html</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture">What is Enterprise Architecture&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture_framework">What is Enterprise Architecture Framework&lt;/a>&lt;/li>
@@ -63,6 +65,16 @@
 &lt;li>&lt;a href="https://publications.opengroup.org/standards/togaf">Open Group | Architecture Certification&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.geeksforgeeks.org/software-engineering/kanban-agile-methodology/">Kanban&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.levels.fyi/t/software-engineer/locations/india">Levels.fyi | Salaries&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="career-gap">Career Gap&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.learnbay.co/">Learnbay&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.mygreatlearning.com/">Great Learning&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="freelancing">Freelancing&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.upwork.com/">Upwork&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.topcoder.com/">TopCoder&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>DSA Algo Resources</title><link>https://ashishdoneriya.github.io/dsa-algo-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/dsa-algo-resources.html</guid><description>&lt;h2 id="practice">Practice&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>&lt;a href="https://takeuforward.org/">Striver Sheets&lt;/a>&lt;/strong>&lt;/li>
@@ -87,6 +99,9 @@
 &lt;li>&lt;a href="https://interviewnoodle.com/the-ultimate-strategy-to-preparing-for-the-coding-interview-ee9f7eb439f3">The Ultimate Strategy for Preparing for a Coding Interview&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Introsort">Introsort&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Block_sort">Block sort&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/@al.eks/the-ultimate-guide-to-dynamic-programming-65865ef7ec5b">The Ultimate Guide to Dynamic Programming&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://samanbatool08.medium.com/sliding-window-algorithms-4d2e517ea31d">Sliding Window Algorithms&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.com/catalysts-reachout/how-do-i-start-learning-or-strengthen-my-knowledge-of-data-structures-and-algorithms-d62b3108a01a">Complete RoadMap of DSA in 120 Days&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Magnet: Push-based Shuffle Service for Large-scale Data Processing</title><link>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</guid><description>&lt;p>The paper &lt;strong>“Magnet: Push-based Shuffle Service for Large-scale Data Processing”&lt;/strong> is from LinkedIn.&lt;/p>
 &lt;p>The useful part is this:&lt;/p>
 &lt;p>&lt;strong>Spark shuffle becomes slow at large scale because reducers read billions of tiny shuffle blocks from disk/network. Magnet fixes that by converting tiny fragmented shuffle blocks into larger merged blocks before reducers fetch them.&lt;/strong>&lt;/p>
