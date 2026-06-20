@@ -1,188 +1,188 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technology on My Workbook</title><link>https://ashishdoneriya.github.io/topics/technology/</link><description>Recent content in Technology on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 10 Jun 2026 02:05:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/technology/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker Cleanup</title><link>https://ashishdoneriya.github.io/docker-cleanup.html</link><pubDate>Wed, 10 Jun 2026 02:05:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/docker-cleanup.html</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>docker stop &lt;span style="color:#66d9ef">$(&lt;/span>docker ps -aq&lt;span style="color:#66d9ef">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker rm &lt;span style="color:#66d9ef">$(&lt;/span>docker ps -aq&lt;span style="color:#66d9ef">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker rmi -f &lt;span style="color:#66d9ef">$(&lt;/span>docker images -aq&lt;span style="color:#66d9ef">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker volume rm &lt;span style="color:#66d9ef">$(&lt;/span>docker volume ls -q&lt;span style="color:#66d9ef">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker network prune -f
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker builder prune -a -f
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>docker system prune -a --volumes -f
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Create a Minecraft Left-Click Toggle on Linux Mint Cinnamon</title><link>https://ashishdoneriya.github.io/minecraft-left-click-toggle-linux-mint.html</link><pubDate>Sat, 06 Jun 2026 03:05:09 +0530</pubDate><guid>https://ashishdoneriya.github.io/minecraft-left-click-toggle-linux-mint.html</guid><description>&lt;h1 id="create-a-minecraft-left-click-toggle-on-linux-mint-cinnamon">Create a Minecraft Left-Click Toggle on Linux Mint Cinnamon&lt;/h1>
-&lt;p>This tutorial shows how to make one keyboard key hold left click for Minecraft.&lt;/p>
-&lt;p>After setup:&lt;/p>
-&lt;ul>
-&lt;li>Press &lt;code>F8&lt;/code> once to start holding left click.&lt;/li>
-&lt;li>Press &lt;code>F8&lt;/code> again to stop holding left click.&lt;/li>
-&lt;/ul>
-&lt;p>Use this only in single-player or on servers where automation is allowed.&lt;/p>
-&lt;h2 id="what-you-need">What You Need&lt;/h2>
-&lt;p>This guide is for Linux Mint Cinnamon using X11.&lt;/p>
-&lt;p>You also need a small tool called &lt;code>xdotool&lt;/code>. It lets Linux press or release mouse buttons from a command.&lt;/p></description></item><item><title>Permanently Fix Bluetooth Mouse Speed on Linux Mint Cinnamon</title><link>https://ashishdoneriya.github.io/fix-mouse-speed-linux-mint.html</link><pubDate>Fri, 05 Jun 2026 04:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/fix-mouse-speed-linux-mint.html</guid><description>&lt;p>If your Bluetooth mouse speed resets after every restart on Linux Mint Cinnamon, the problem is usually that &lt;code>xinput&lt;/code> changes are temporary.&lt;/p>
-&lt;p>Commands such as &lt;code>xinput set-prop&lt;/code> only affect the current X11 session. After a restart, logout, or Bluetooth reconnect, those settings can reset.&lt;/p>
-&lt;p>The permanent fix is to configure the mouse in two places:&lt;/p>
-&lt;ol>
-&lt;li>Cinnamon&amp;rsquo;s persistent mouse settings&lt;/li>
-&lt;li>Xorg/libinput device configuration&lt;/li>
-&lt;/ol>
-&lt;p>This guide is for Linux Mint Cinnamon running on X11.&lt;/p></description></item><item><title>Configure Codex CLI with LM Studio as the Default Local Model Provider</title><link>https://ashishdoneriya.github.io/codex-cli-lm-studio-setup.html</link><pubDate>Fri, 29 May 2026 04:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/codex-cli-lm-studio-setup.html</guid><description>&lt;p>This guide shows how to configure Codex CLI so it uses LM Studio by default.&lt;/p>
-&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
-&lt;p>Install and configure:&lt;/p>
-&lt;ul>
-&lt;li>Codex CLI&lt;/li>
-&lt;li>LM Studio&lt;/li>
-&lt;li>A local model loaded in LM Studio, for example openai/gpt-oss-20b&lt;/li>
-&lt;/ul>
-&lt;p>Start the LM Studio local server and confirm it is available at:&lt;/p>
-&lt;p>http://localhost:1234/v1&lt;/p>
-&lt;p>You can verify the models endpoint:&lt;/p>
-&lt;p>curl http://localhost:1234/v1/models&lt;/p>
-&lt;p>Example response:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;data&amp;#34;&lt;/span>: [
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;id&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;google/gemma-4-e4b&amp;#34;&lt;/span>,
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;model&amp;#34;&lt;/span>,
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;owned_by&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;ashish&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;id&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;openai/gpt-oss-20b&amp;#34;&lt;/span>,
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;model&amp;#34;&lt;/span>,
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;owned_by&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;ashish&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;id&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;qwen/qwen3-8b&amp;#34;&lt;/span>,
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;model&amp;#34;&lt;/span>,
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;owned_by&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;ashish&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;object&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;list&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="required-files">Required Files&lt;/h2>
-&lt;p>This setup needs two Codex config files:&lt;/p></description></item><item><title>AI Engineering Transition Path</title><link>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</link><pubDate>Thu, 15 May 2025 09:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</guid><description>&lt;p>&lt;strong>NOTE : This content is presented exactly as it appears in InterviewReady&amp;rsquo;s AI Engineering Transition Path on &lt;a href="https://github.com/InterviewReady/ai-engineering-resources">GitHub&lt;/a>. All credit goes to the original authors.&lt;/strong>&lt;/p>
-&lt;p>Research papers for software engineers to transition to AI Engineering&lt;/p>
-&lt;h2 id="tokenization">Tokenization&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/1508.07909">Byte-pair Encoding&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2412.09871">Byte Latent Transformer: Patches Scale Better Than Tokens&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="vectorization">Vectorization&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/1810.04805">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2305.05665">IMAGEBIND: One Embedding Space To Bind Them All&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2308.11466">SONAR: Sentence-Level Multimodal and Language-Agnostic Representations&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2401.08281">FAISS library&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2412.08821v2">Facebook Large Concept Models&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="infrastructure">Infrastructure&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/1605.08695">TensorFlow&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/deepseek-ai/3FS/blob/main/docs/design_notes.md">Deepseek filesystem&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.cs.purdue.edu/homes/csjgwang/pubs/SIGMOD21_Milvus.pdf">Milvus DB&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/1702.08734">Billion Scale Similarity Search : FAISS&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/abs/1712.05889">Ray&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="core-architecture">Core Architecture&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf">Attention is All You Need&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2205.14135">FlashAttention&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/1911.02150">Multi Query Attention&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2305.13245">Grouped Query Attention&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2501.00663">Google Titans outperform Transformers&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2502.05173">VideoRoPE: Rotary Position Embedding&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="mixture-of-experts">Mixture of Experts&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/1701.06538">Sparsely-Gated Mixture-of-Experts Layer&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/abs/2006.16668">GShard&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/abs/2101.03961">Switch Transformers&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="rlhf">RLHF&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/1706.03741">Deep Reinforcement Learning with Human Feedback&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/1909.08593">Fine-Tuning Language Models with RHLF&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2203.02155">Training language models with RHLF&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="chain-of-thought">Chain of Thought&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2201.11903">Chain-of-Thought Prompting Elicits Reasoning in Large Language Models&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2411.14405v1/">Chain of thought&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2502.03373">Demystifying Long Chain-of-Thought Reasoning in LLMs&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="reasoning">Reasoning&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2405.18512">Transformer Reasoning Capabilities&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2407.21787">Large Language Monkeys: Scaling Inference Compute with Repeated Sampling&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2408.03314">Scale model test times is better than scaling parameters&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2412.06769">Training Large Language Models to Reason in a Continuous Latent Space&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2501.12948v1">DeepSeek R1&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2502.01618">A Probabilistic Inference Approach to Inference-Time Scaling of LLMs using Particle-Based Monte Carlo Methods&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2502.05171">Latent Reasoning: A Recurrent Depth Approach&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2504.13139">Syntactic and Semantic Control of Large Language Models via Sequential Monte Carlo&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="optimizations">Optimizations&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2402.17764">The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2407.08608">FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2412.18653v1">ByteDance 1.58&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2501.06252">Transformer Square&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2501.09732">Inference-Time Scaling for Diffusion Models beyond Scaling Denoising Steps&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2502.06703">1b outperforms 405b&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2211.17192">Speculative Decoding&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="distillation">Distillation&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/1503.02531">Distilling the Knowledge in a Neural Network&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2006.07733">BYOL - Distilled Architecture&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2104.14294">DINO&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="ssms">SSMs&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2305.13048">RWKV: Reinventing RNNs for the Transformer Era&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2312.00752">Mamba&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2405.21060">Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2408.10189">Distilling Transformers to SSMs&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2410.10254">LoLCATs: On Low-Rank Linearizing of Large Language Models&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2502.20339">Think Slow, Fast&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="competition-models">Competition Models&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2502.03544">Google Math Olympiad 2&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2502.06807">Competitive Programming with Large Reasoning Models&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.nature.com/articles/s41586-023-06747-5">Google Math Olympiad 1&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="hype-makers">Hype Makers&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2501.04682">Can AI be made to think critically&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2501.09891">Evolving Deeper LLM Thinking&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2502.07374">LLMs Can Easily Learn to Reason from Demonstrations Structure&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="hype-breakers">Hype Breakers&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2301.06627">Separating communication from intelligence&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://gwern.net/doc/psychology/linguistics/2024-fedorenko.pdf">Language is not intelligence&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="image-transformers">Image Transformers&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2010.11929">Image is 16x16 word&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2103.00020">CLIP&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2501.17811">deepseek image generation&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="video-transformers">Video Transformers&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2103.15691">ViViT: A Video Vision Transformer&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2404.08471">Joint Embedding abstractions with self-supervised video masks&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2502.02492">Facebook VideoJAM ai gen&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="case-studies">Case Studies&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2402.09171">Automated Unit Test Improvement using Large Language Models at Meta&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2404.17723v1">Retrieval-Augmented Generation with Knowledge Graphs for Customer Service Question Answering&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2412.16720">OpenAI o1 System Card&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2501.12862">LLM-powered bug catchers&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2501.14342">Chain-of-Retrieval Augmented Generation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bytes.swiggy.com/improving-search-relevance-in-hyperlocal-food-delivery-using-small-language-models-ecda2acc24e6">Swiggy Search&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/openai/swarm">Swarm by OpenAI&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39">Netflix Foundation Models&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.anthropic.com/news/model-context-protocol">Model Context Protocol&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.uber.com/en-IN/blog/query-gpt/">uber queryGPT&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="more-resources">More Resources&lt;/h2>
-&lt;p>I manage my lists here: &lt;a href="https://interviewready.io/resources/">https://interviewready.io/resources/&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technology on My Workbook</title><link>https://ashishdoneriya.github.io/topics/technology/</link><description>Recent content in Technology on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 10 Jun 2026 02:05:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/technology/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker Cleanup</title><link>https://ashishdoneriya.github.io/docker-cleanup.html</link><pubDate>Wed, 10 Jun 2026 02:05:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/docker-cleanup.html</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;docker stop &lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;docker ps -aq&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;docker rm &lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;docker ps -aq&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;docker rmi -f &lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;docker images -aq&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;docker volume rm &lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;docker volume ls -q&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;docker network prune -f
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;docker builder prune -a -f
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;docker system prune -a --volumes -f
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Create a Minecraft Left-Click Toggle on Linux Mint Cinnamon</title><link>https://ashishdoneriya.github.io/minecraft-left-click-toggle-linux-mint.html</link><pubDate>Sat, 06 Jun 2026 03:05:09 +0530</pubDate><guid>https://ashishdoneriya.github.io/minecraft-left-click-toggle-linux-mint.html</guid><description>&lt;h1 id="create-a-minecraft-left-click-toggle-on-linux-mint-cinnamon"&gt;Create a Minecraft Left-Click Toggle on Linux Mint Cinnamon&lt;/h1&gt;
+&lt;p&gt;This tutorial shows how to make one keyboard key hold left click for Minecraft.&lt;/p&gt;
+&lt;p&gt;After setup:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Press &lt;code&gt;F8&lt;/code&gt; once to start holding left click.&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;F8&lt;/code&gt; again to stop holding left click.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use this only in single-player or on servers where automation is allowed.&lt;/p&gt;
+&lt;h2 id="what-you-need"&gt;What You Need&lt;/h2&gt;
+&lt;p&gt;This guide is for Linux Mint Cinnamon using X11.&lt;/p&gt;
+&lt;p&gt;You also need a small tool called &lt;code&gt;xdotool&lt;/code&gt;. It lets Linux press or release mouse buttons from a command.&lt;/p&gt;</description></item><item><title>Permanently Fix Bluetooth Mouse Speed on Linux Mint Cinnamon</title><link>https://ashishdoneriya.github.io/fix-mouse-speed-linux-mint.html</link><pubDate>Fri, 05 Jun 2026 04:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/fix-mouse-speed-linux-mint.html</guid><description>&lt;p&gt;If your Bluetooth mouse speed resets after every restart on Linux Mint Cinnamon, the problem is usually that &lt;code&gt;xinput&lt;/code&gt; changes are temporary.&lt;/p&gt;
+&lt;p&gt;Commands such as &lt;code&gt;xinput set-prop&lt;/code&gt; only affect the current X11 session. After a restart, logout, or Bluetooth reconnect, those settings can reset.&lt;/p&gt;
+&lt;p&gt;The permanent fix is to configure the mouse in two places:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cinnamon&amp;rsquo;s persistent mouse settings&lt;/li&gt;
+&lt;li&gt;Xorg/libinput device configuration&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This guide is for Linux Mint Cinnamon running on X11.&lt;/p&gt;</description></item><item><title>Configure Codex CLI with LM Studio as the Default Local Model Provider</title><link>https://ashishdoneriya.github.io/codex-cli-lm-studio-setup.html</link><pubDate>Fri, 29 May 2026 04:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/codex-cli-lm-studio-setup.html</guid><description>&lt;p&gt;This guide shows how to configure Codex CLI so it uses LM Studio by default.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Install and configure:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Codex CLI&lt;/li&gt;
+&lt;li&gt;LM Studio&lt;/li&gt;
+&lt;li&gt;A local model loaded in LM Studio, for example openai/gpt-oss-20b&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Start the LM Studio local server and confirm it is available at:&lt;/p&gt;
+&lt;p&gt;http://localhost:1234/v1&lt;/p&gt;
+&lt;p&gt;You can verify the models endpoint:&lt;/p&gt;
+&lt;p&gt;curl http://localhost:1234/v1/models&lt;/p&gt;
+&lt;p&gt;Example response:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;data&amp;#34;&lt;/span&gt;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;id&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;google/gemma-4-e4b&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;object&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;model&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;owned_by&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;ashish&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;id&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;openai/gpt-oss-20b&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;object&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;model&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;owned_by&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;ashish&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;id&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;qwen/qwen3-8b&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;object&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;model&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;owned_by&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;ashish&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; ],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;object&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;list&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="required-files"&gt;Required Files&lt;/h2&gt;
+&lt;p&gt;This setup needs two Codex config files:&lt;/p&gt;</description></item><item><title>AI Engineering Transition Path</title><link>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</link><pubDate>Thu, 15 May 2025 09:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/ai-engineering-transition-path.html</guid><description>&lt;p&gt;&lt;strong&gt;NOTE : This content is presented exactly as it appears in InterviewReady&amp;rsquo;s AI Engineering Transition Path on &lt;a href="https://github.com/InterviewReady/ai-engineering-resources"&gt;GitHub&lt;/a&gt;. All credit goes to the original authors.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Research papers for software engineers to transition to AI Engineering&lt;/p&gt;
+&lt;h2 id="tokenization"&gt;Tokenization&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/1508.07909"&gt;Byte-pair Encoding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2412.09871"&gt;Byte Latent Transformer: Patches Scale Better Than Tokens&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="vectorization"&gt;Vectorization&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/1810.04805"&gt;BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2305.05665"&gt;IMAGEBIND: One Embedding Space To Bind Them All&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2308.11466"&gt;SONAR: Sentence-Level Multimodal and Language-Agnostic Representations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2401.08281"&gt;FAISS library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2412.08821v2"&gt;Facebook Large Concept Models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="infrastructure"&gt;Infrastructure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/1605.08695"&gt;TensorFlow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/deepseek-ai/3FS/blob/main/docs/design_notes.md"&gt;Deepseek filesystem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cs.purdue.edu/homes/csjgwang/pubs/SIGMOD21_Milvus.pdf"&gt;Milvus DB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/1702.08734"&gt;Billion Scale Similarity Search : FAISS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/1712.05889"&gt;Ray&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-architecture"&gt;Core Architecture&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf"&gt;Attention is All You Need&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2205.14135"&gt;FlashAttention&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/1911.02150"&gt;Multi Query Attention&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2305.13245"&gt;Grouped Query Attention&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2501.00663"&gt;Google Titans outperform Transformers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2502.05173"&gt;VideoRoPE: Rotary Position Embedding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="mixture-of-experts"&gt;Mixture of Experts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/1701.06538"&gt;Sparsely-Gated Mixture-of-Experts Layer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2006.16668"&gt;GShard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2101.03961"&gt;Switch Transformers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="rlhf"&gt;RLHF&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/1706.03741"&gt;Deep Reinforcement Learning with Human Feedback&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/1909.08593"&gt;Fine-Tuning Language Models with RHLF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2203.02155"&gt;Training language models with RHLF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="chain-of-thought"&gt;Chain of Thought&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2201.11903"&gt;Chain-of-Thought Prompting Elicits Reasoning in Large Language Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2411.14405v1/"&gt;Chain of thought&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2502.03373"&gt;Demystifying Long Chain-of-Thought Reasoning in LLMs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="reasoning"&gt;Reasoning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2405.18512"&gt;Transformer Reasoning Capabilities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2407.21787"&gt;Large Language Monkeys: Scaling Inference Compute with Repeated Sampling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2408.03314"&gt;Scale model test times is better than scaling parameters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2412.06769"&gt;Training Large Language Models to Reason in a Continuous Latent Space&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2501.12948v1"&gt;DeepSeek R1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2502.01618"&gt;A Probabilistic Inference Approach to Inference-Time Scaling of LLMs using Particle-Based Monte Carlo Methods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2502.05171"&gt;Latent Reasoning: A Recurrent Depth Approach&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2504.13139"&gt;Syntactic and Semantic Control of Large Language Models via Sequential Monte Carlo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="optimizations"&gt;Optimizations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2402.17764"&gt;The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2407.08608"&gt;FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2412.18653v1"&gt;ByteDance 1.58&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2501.06252"&gt;Transformer Square&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2501.09732"&gt;Inference-Time Scaling for Diffusion Models beyond Scaling Denoising Steps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2502.06703"&gt;1b outperforms 405b&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2211.17192"&gt;Speculative Decoding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="distillation"&gt;Distillation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/1503.02531"&gt;Distilling the Knowledge in a Neural Network&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2006.07733"&gt;BYOL - Distilled Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2104.14294"&gt;DINO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="ssms"&gt;SSMs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2305.13048"&gt;RWKV: Reinventing RNNs for the Transformer Era&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2312.00752"&gt;Mamba&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2405.21060"&gt;Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2408.10189"&gt;Distilling Transformers to SSMs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2410.10254"&gt;LoLCATs: On Low-Rank Linearizing of Large Language Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2502.20339"&gt;Think Slow, Fast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="competition-models"&gt;Competition Models&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2502.03544"&gt;Google Math Olympiad 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2502.06807"&gt;Competitive Programming with Large Reasoning Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.nature.com/articles/s41586-023-06747-5"&gt;Google Math Olympiad 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="hype-makers"&gt;Hype Makers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2501.04682"&gt;Can AI be made to think critically&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2501.09891"&gt;Evolving Deeper LLM Thinking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2502.07374"&gt;LLMs Can Easily Learn to Reason from Demonstrations Structure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="hype-breakers"&gt;Hype Breakers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2301.06627"&gt;Separating communication from intelligence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gwern.net/doc/psychology/linguistics/2024-fedorenko.pdf"&gt;Language is not intelligence&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="image-transformers"&gt;Image Transformers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2010.11929"&gt;Image is 16x16 word&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2103.00020"&gt;CLIP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2501.17811"&gt;deepseek image generation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="video-transformers"&gt;Video Transformers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2103.15691"&gt;ViViT: A Video Vision Transformer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2404.08471"&gt;Joint Embedding abstractions with self-supervised video masks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2502.02492"&gt;Facebook VideoJAM ai gen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="case-studies"&gt;Case Studies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2402.09171"&gt;Automated Unit Test Improvement using Large Language Models at Meta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2404.17723v1"&gt;Retrieval-Augmented Generation with Knowledge Graphs for Customer Service Question Answering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2412.16720"&gt;OpenAI o1 System Card&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2501.12862"&gt;LLM-powered bug catchers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2501.14342"&gt;Chain-of-Retrieval Augmented Generation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bytes.swiggy.com/improving-search-relevance-in-hyperlocal-food-delivery-using-small-language-models-ecda2acc24e6"&gt;Swiggy Search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/openai/swarm"&gt;Swarm by OpenAI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39"&gt;Netflix Foundation Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.anthropic.com/news/model-context-protocol"&gt;Model Context Protocol&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.uber.com/en-IN/blog/query-gpt/"&gt;uber queryGPT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="more-resources"&gt;More Resources&lt;/h2&gt;
+&lt;p&gt;I manage my lists here: &lt;a href="https://interviewready.io/resources/"&gt;https://interviewready.io/resources/&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

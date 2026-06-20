@@ -1,386 +1,386 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interview on My Workbook</title><link>https://ashishdoneriya.github.io/topics/interview/</link><description>Recent content in Interview on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 20 Jun 2026 03:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>UI Resources</title><link>https://ashishdoneriya.github.io/ui-resources.html</link><pubDate>Sat, 20 Jun 2026 03:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/ui-resources.html</guid><description>&lt;h2 id="vuejs-resources">Vue.js Resources&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/vuejs/awesome-vue">Awesome Vue&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://curated.vuejs.org/">Vue Curated Marketplace&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.webf.zone/vue-js-forms-components-and-considerations-d81b3ffe9efb">Vue Forms, Components, and Considerations&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://vuejsexamples.com/vuejs-tables-and-select-all-checkbox/">Vue.js Tables with Select All Checkbox&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://stackoverflow.com/questions/47402086/restrict-input-to-single-digit-in-vuejs">Restrict Vue Input to a Single Digit&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://stackoverflow.com/questions/39834698/emit-an-event-when-a-specific-piece-of-state-changes-in-vuex-store">Vuex Emit Event on State Change&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="vuejs-ui-libraries">Vue.js UI Libraries&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="http://element.eleme.io/#/en-US">Element UI&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rafaelpimpa/buefy">Buefy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://vuematerial.io/">Vue Material&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/JosephusPaye/Keen-UI">Keen UI&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://didi.github.io/cube-ui/#/en-US">Cube UI&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://vue.ant.design/docs/vue/introduce/">Ant Design Vue&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://aidewoode.com/office-ui-fabric-vue/#/GetStarted">Office UI Fabric Vue&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="vuejs-components--plugins">Vue.js Components &amp;amp; Plugins&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/shakee93/vue-toasted">Vue Toasted&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://vuejs.creative-tim.com/vue-form-wizard/#/">Vue Form Wizard&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/karol-f/vue-custom-element">Vue Custom Element&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://vue-snack.surge.sh/#/?id=vue-snackbar">Vue Snack&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/epicmaxco/epic-spinners?utm_source=mybridge&amp;amp;utm_medium=blog&amp;amp;utm_campaign=read_more">Epic Spinners&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://vuex.vuejs.org/">Vuex&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/chrisvfritz/prerender-spa-plugin">Prerender SPA Plugin&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/FranckFreiburger/http-vue-loader">HTTP Vue Loader&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yansern.github.io/vue-multipane/demo/index.html">Vue Multipane&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/probil/vue-moveable?fbclid=IwAR0B7zkYecHWUyHO7g5JJ2EB2uZmZvuxGquGiiCcLu8lAX69iSZOX-kQDs0">Vue Moveable&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://vuedose.tips/tips/the-most-modern-pie-chart-component-using-css-conic-gradient-and-vue-js/?fbclid=IwAR2CP5jNaqEWf_PIEl-qjZfxl-_6Uwd_WRvcybgihDoW4r0oo3rV2E0AGRI">Vue CSS Conic Gradient Pie Chart&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.npmjs.com/package/vue-pdf?fbclid=IwAR2JiC_3irdafH26yPS6PNiwA0nFPj8wEQmmqlEOAnpbJ_0KcauuGPwgJ7Y">Vue PDF&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://dev.to/lampewebdev/vuejs-pages-with-dynamic-layouts-problems-and-a-solution-4460?fbclid=IwAR23MQHkSJyv-T1cXfl60Tyup3FMCV6FrWzh_4mDPT0CrvkhJEI5pXXHooI">Vue Dynamic Layouts&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://stegosource.com/create-lazy-loading-image-component-faster-vue-js-apps/?fbclid=IwAR2FKQlw0MDIZjktVZGbwkckqcOEjIDHAx-1SeOhb5CGvwA-hwQUn792PvI">Vue Lazy Loading Image Component&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/F-loat/vue-simplemde">Vue SimpleMDE&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://morioh.com/p/8a5f51d14a4d?f=5c492728f538881a2158699f&amp;amp;fbclid=IwAR0wKjMysvB1iBNv3vqYzhq4S5PT17tHq-9-UF46w1tQmoDurHPM5crlmM4">Vue Image Loader Component&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/FranckFreiburger/vue3-sfc-loader">Vue 3 SFC Loader&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://stegosource.com/unique-accessible-lightweight-vue-components/?fbclid=IwAR0FY5GwaW8TXR46N-VDZp0qrqQ6_EhJf-lNCEsnCxNZpbwl77fQCg-nqzQ">Accessible Lightweight Vue Components&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="css-frameworks">CSS Frameworks&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://bulma.io/">Bulma&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://materializecss.com/">Materialize CSS&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://designmodo.github.io/Flat-UI/#">Flat UI&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://foundation.zurb.com/">Foundation&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="layout--responsive-design">Layout &amp;amp; Responsive Design&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="http://troolee.github.io/gridstack.js/">Gridstack.js&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://csslayoutgenerator.com/">CSS Layout Generator&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://www.cssportal.com/layout-generator/">CSS Portal Layout Generator&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://yoksel.github.io/flex-cheatsheet/">Flexbox Cheatsheet&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://css-tricks.com/snippets/css/complete-guide-grid/">A Complete Guide to CSS Grid&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://csslayout.io/patterns/">CSS Layout Patterns&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="ui-interaction-libraries">UI Interaction Libraries&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="http://ytiurin.github.io/html5tooltipsjs/">HTML5 Tooltips&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://idangero.us/swiper/demos/">Swiper Mobile Touch Slider&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://wicky.nillia.ms/headroom.js/">Headroom.js&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://ianlunn.github.io/Hover/">Hover.css&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/pqina/filepond">FilePond&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/inorganik/CountUp.js">CountUp.js&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="animation--loading">Animation &amp;amp; Loading&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="http://tobiasahlin.com/spinkit/">SpinKit&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://loading.io/">Loading.io&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://geeksretreat.wordpress.com/2016/01/14/windows-10-progress-widget-with-the-html5-canvas/">Windows 10 Canvas Progress Widget&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://maxwellito.github.io/vivus/">Vivus.js&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://codepen.io/ruslan_khomiak/pen/QGmwMP">Material Floating Action Button in Pure CSS&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.npmjs.com/package/minimal_fab">Minimal FAB&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="colors--icons">Colors &amp;amp; Icons&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="http://html-color-codes.info/">HTML Color Codes&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://clrs.cc/">Colors by CLRS&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://fontello.com/">Fontello&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="templates--component-discovery">Templates &amp;amp; Component Discovery&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://devarchy.com/frontend">Frontend Libraries&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bit.dev/">Bit Components&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://htmlrev.com/">Free HTML Templates&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="tools--playgrounds">Tools &amp;amp; Playgrounds&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="http://jsbin.com/?html,css,console,output">JS Bin&lt;/a>&lt;/li>
-&lt;li>&lt;a href="http://jsbeautifier.org/">JS Beautifier&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bogdan-lyashenko.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html">JS Flowchart&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="articles--guides">Articles &amp;amp; Guides&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="http://www.html5rocks.com/en/tutorials/?page=3">HTML5 Rocks Tutorials&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://samsaffron.com/archive/2015/12/29/websockets-caution-required">WebSockets, Caution Required&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.smashingmagazine.com/2019/08/faster-image-loading-embedded-previews/#determine-byte-offset">Faster Image Loading with Embedded Image Previews&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="javascript-runtime">JavaScript Runtime&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://bun.sh/">Bun&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Software Engineering Resources</title><link>https://ashishdoneriya.github.io/software-engineering-resources.html</link><pubDate>Sat, 20 Jun 2026 02:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/software-engineering-resources.html</guid><description>&lt;ul>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture">What is Enterprise Architecture&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture_framework">What is Enterprise Architecture Framework&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://obamawhitehouse.archives.gov/omb/e-gov/FEA">Federal Enterprise Architecture&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.gartner.com/en/doc/enterprise-architecture-function-primer-for-2023">Enterprise Architecture Function Primer&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">The Clean Architecture&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://publications.opengroup.org/standards/togaf">Open Group | Architecture Certification&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.geeksforgeeks.org/software-engineering/kanban-agile-methodology/">Kanban&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.levels.fyi/t/software-engineer/locations/india">Levels.fyi | Salaries&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="career-gap">Career Gap&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.learnbay.co/">Learnbay&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.mygreatlearning.com/">Great Learning&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="freelancing">Freelancing&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.upwork.com/">Upwork&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.topcoder.com/">TopCoder&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="books">Books&lt;/h2>
-&lt;h3 id="architecture">Architecture&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.google.com/search?q=Building+Evolutionary+Architectures">Building Evolutionary Architectures&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=The+Software+Architect+Elevator">The Software Architect Elevator&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Patterns+of+Distributed+Systems">Patterns of Distributed Systems&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Collaborative+Software+Design">Collaborative Software Design&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="cloud--solutions-architecture">Cloud &amp;amp; Solutions Architecture&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.google.com/search?q=AWS+for+Solutions+Architects">AWS for Solutions Architects&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Serverless+Architectures+on+AWS">Serverless Architectures on AWS&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Solutions+Architect%E2%80%99s+Handbook">Solutions Architect’s Handbook&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="data-engineering">Data Engineering&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.google.com/search?q=Fundamentals+of+Data+Engineering">Fundamentals of Data Engineering&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Deciphering+Data+Architectures">Deciphering Data Architectures&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Data+Pipelines+Pocket+Reference">Data Pipelines Pocket Reference&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Designing+Cloud+Data+Platforms">Designing Cloud Data Platforms&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="streaming--kafka">Streaming &amp;amp; Kafka&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.google.com/search?q=Kafka+in+Action">Kafka in Action&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Streaming+Data+Pipelines+with+Kafka">Streaming Data Pipelines with Kafka&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Learning+Spark">Learning Spark&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Spark+in+Action">Spark in Action&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="security">Security&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.google.com/search?q=Agile+Application+Security">Agile Application Security&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Microservices+Security+in+Action">Microservices Security in Action&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Spring+Security+in+Action">Spring Security in Action&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="microservices--apis">Microservices &amp;amp; APIs&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.google.com/search?q=Cracking+Microservices+Interview">Cracking Microservices Interview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Designing+APIs+with+Swagger+and+OpenAPI">Designing APIs with Swagger and OpenAPI&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="frontend-architecture">Frontend Architecture&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.google.com/search?q=Micro+Frontends+in+Action">Micro Frontends in Action&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="java--spring">Java &amp;amp; Spring&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.google.com/search?q=Grokking+the+Spring+Boot+Interview">Grokking the Spring Boot Interview&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="concurrency--performance">Concurrency &amp;amp; Performance&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.google.com/search?q=Grokking+Concurrency">Grokking Concurrency&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.google.com/search?q=Parallel+and+High+Performance+Computing">Parallel and High Performance Computing&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="engineering-culture--product-thinking">Engineering Culture &amp;amp; Product Thinking&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.google.com/search?q=Think+Like+Amazon">Think Like Amazon&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="kubernetes">Kubernetes&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://www.google.com/search?q=Kubernetes+in+Action">Kubernetes in Action&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="blogs">Blogs&lt;/h2>
-&lt;h3 id="system-design--software-architecture">System Design &amp;amp; Software Architecture&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://newsletter.systemdesign.one/">The System Design Newsletter&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.bytebytego.com/">ByteByteGo&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://bytesizeddesign.substack.com/">Byte-Sized Design&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://newsletter.systemdesigncodex.com/">System Design Codex&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://newsletter.techworld-with-milan.com/">Tech World With Milan&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="software-engineering--technical-deep-dives">Software Engineering &amp;amp; Technical Deep Dives&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://read.engineerscodex.com/">Engineer’s Codex&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://craftbettersoftware.com/">Craft Better Software&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://codingchallenges.substack.com/?r=1to968">Coding Challenges&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="engineering-career-growth">Engineering Career Growth&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://levelupsoftwareengineering.substack.com/">Level Up Software Engineering&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://careercutler.substack.com/">High Growth Engineer&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.developing.dev/">The Peterman Post&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.thecaringtechie.com/">The Caring Techie&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://thesoftwareengineeringtimes.substack.com/">The Software Engineering Times&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="tech-lead--engineering-leadership">Tech Lead &amp;amp; Engineering Leadership&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://newsletter.eng-leadership.com/">Engineering Leadership&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://anemarifiser.substack.com/">Level Up as a Tech Lead&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://newsletter.techleadmentor.com/?r=1to968">Techlead Mentor&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://zaidesanton.substack.com/">Manager.dev&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.alexewerlof.com/">Alex Ewerlöf Notes&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://hybridhacker.email/">Hybrid Hacker&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="cto--executive-engineering-leadership">CTO &amp;amp; Executive Engineering Leadership&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://blog.snackablecto.coach/?r=1to968">snackableCTO&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.amazingcto.com/cto-newsletter/">Amazing CTO&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.visionarycto.com/p/cto-career-path-before-and-after">CTO Career Path&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Java Resources</title><link>https://ashishdoneriya.github.io/java-resources.html</link><pubDate>Sat, 20 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/java-resources.html</guid><description>&lt;h2 id="articles">Articles&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/HugoMatilla/Effective-JAVA-Summary">Effective Java Summary&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.jrebel.com/blog/solid-principles-in-java">SOLID Principles&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/">SOLID Principles&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/deployment/jar/index.html">Packaging Programs in JAR Files&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.oracle.com/cd/E19455-01/806-3461/6jck06gqd/index.html">JRE&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://medium.com/platform-engineer/understanding-jvm-architecture-22c0ddf09722">JVM Architecture&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://medium.com/javamadetranquil/jvm-architecture-29f6ab33e208">JVM Architecture&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.infoworld.com/article/2338644/all-about-java-class-loaders.html">Java Classloaders&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://stackoverflow.com/questions/3849634/static-allocation-in-java-heap-stack-and-permanent-generation">Java Heap&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html">G1 Garbage Collector&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=88E86quLmQA">ZGC Garbage Collector&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.baeldung.com/java-concurrency">Java Concurrency Series&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://jenkov.com/tutorials/java-util-concurrent/index.html">Java Concurrency&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://jenkov.com/tutorials/java-util-concurrent/index.html">Java Concurrency Utilities&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://web.mit.edu/6.005/www/fa15/classes/23-locks/">Locks and Synchronization&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://quarkus.io/guides/virtual-threads">Virtual Threads&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html">Concurrency&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://javarevisited.blogspot.com/2015/05/top-10-java-multithreading-and.html">Multithreading Best Practices&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://javatechonline.com/singleton-design-pattern-in-java-with-all-scenarios">Singleton Design Pattern&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.geeksforgeeks.org/system-design/java-design-patterns/">Java Design Patterns&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.baeldung.com/java-externalizable">Externalizable Interface&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://jenkov.com/tutorials/java-collections/index.html">Java Collections&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="toolslibraries">Tools/Libraries&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="http://java-decompiler.github.io/#jd-gui-download">Java Decompiler&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://modelmapper.org/">Model Mapper&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="youtube">Youtube&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/c/JavaBrainsChannel/videos">Java Brains&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.youtube.com/channel/UCiz26UeGvcTy4_M3Zhgk7FQ/playlists">Defog Tech&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="questions-to-clear">Questions to Clear&lt;/h2>
-&lt;ul>
-&lt;li>What is Hotspot?&lt;/li>
-&lt;/ul>
-&lt;h2 id="interview-questions">Interview Questions&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.glassdoor.co.in/Interview/senior-java-developer-interview-questions-SRCH_KO0,21.htm">Glassdoor&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.java67.com/2013/07/15-advanced-core-java-interview-questions-answers-senior-experienced-5-6-years-programmers-developers.html">Questions for experienced developers&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://resources.workable.com/senior-java-developer-interview-questions">Senior Java developer interview questions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.interviewcake.com/java-interview-questions">https://www.interviewcake.com/java-interview-questions&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="websites">Websites&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://medium.com/javarevisited">Java Revisited&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://zetcode.com/java/">Zetcode&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="spring-boot">Spring Boot&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://vipulkumarsviit.medium.com/how-to-enable-ssl-in-spring-boot-application-dc67a6897c67">Enable SSL in Spring Boot Application&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.baeldung.com/spring-open-session-in-view">Spring&amp;rsquo;s Open Session in View&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.callicoder.com/spring-boot-websocket-chat-example/">Building a chat application with Spring Boot and WebSocket&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.baeldung.com/spring-cloud-series">Spring Cloud Series&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://howtodoinjava.com/spring-boot/spring-boot/">Spring Boot Tutorial&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>DSA Algo Resources</title><link>https://ashishdoneriya.github.io/dsa-algo-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/dsa-algo-resources.html</guid><description>&lt;h2 id="practice">Practice&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>&lt;a href="https://takeuforward.org/">Striver Sheets&lt;/a>&lt;/strong>&lt;/li>
-&lt;li>&lt;a href="https://www.naukri.com/code360/problems">code360&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://leetcode.com/">Leetcode&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://cses.fi/problemset/list/">CSES&lt;/a>&lt;/li>
-&lt;li>[Interview]&lt;/li>
-&lt;li>&lt;a href="https://www.geeksforgeeks.org/dsa/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/">Must Do Coding Interview Questions for MAANG Companies&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.programiz.com/dsa/getting-started">DSA Basics&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="learning">Learning&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p">Anuj Kumar Sharma DSA Complete&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/jwasham/coding-interview-university">jwasham/coding-interview-university&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.youtube.com/@abdul_bari">Abdul Bari&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go">Aditya Version - Dynamic Programming&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="articles">Articles&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://medium.com/free-code-camp/an-intro-to-algorithms-dynamic-programming-dd00873362bb">An intro to Algorithms&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://medium.com/better-programming/a-practical-introduction-to-big-o-a9f9c416aaaf">A Practical Introduction to Big O&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://interviewnoodle.com/the-ultimate-strategy-to-preparing-for-the-coding-interview-ee9f7eb439f3">The Ultimate Strategy for Preparing for a Coding Interview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Introsort">Introsort&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://en.wikipedia.org/wiki/Block_sort">Block sort&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://medium.com/@al.eks/the-ultimate-guide-to-dynamic-programming-65865ef7ec5b">The Ultimate Guide to Dynamic Programming&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://samanbatool08.medium.com/sliding-window-algorithms-4d2e517ea31d">Sliding Window Algorithms&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://medium.com/catalysts-reachout/how-do-i-start-learning-or-strengthen-my-knowledge-of-data-structures-and-algorithms-d62b3108a01a">Complete RoadMap of DSA in 120 Days&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Magnet: Push-based Shuffle Service for Large-scale Data Processing</title><link>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</guid><description>&lt;p>The paper &lt;strong>“Magnet: Push-based Shuffle Service for Large-scale Data Processing”&lt;/strong> is from LinkedIn.&lt;/p>
-&lt;p>The useful part is this:&lt;/p>
-&lt;p>&lt;strong>Spark shuffle becomes slow at large scale because reducers read billions of tiny shuffle blocks from disk/network. Magnet fixes that by converting tiny fragmented shuffle blocks into larger merged blocks before reducers fetch them.&lt;/strong>&lt;/p>
-&lt;h2 id="core-problem">Core Problem&lt;/h2>
-&lt;p>The central problem is not:&lt;/p>
-&lt;ul>
-&lt;li>“Spark is slow”&lt;/li>
-&lt;li>“Network is slow”&lt;/li>
-&lt;/ul>
-&lt;p>The real problem is:&lt;/p>
-&lt;p>&lt;strong>Tiny random reads.&lt;/strong>&lt;/p></description></item><item><title>System Design Resources</title><link>https://ashishdoneriya.github.io/system-design-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/system-design-resources.html</guid><description>&lt;h2 id="high-level">High Level&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/donnemartin/system-design-primer">System Design Primer&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/arpitbbhayani/system-design-questions">Arpit Bhayani System Design Resources&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/InterviewReady/system-design-resource">Interview Ready&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/javabuddy/best-system-design-resources">JavaBuddy&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/shashank88/system_design">shashank88&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/checkcheckzz/system-design-interview">checkcheckzz&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/naniroot/naniz-hugo-site/blob/master/content/posts/system_design_interviews_cheatsheet.md">naniroot | Important Algorithms&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/ByteByteGoHq/system-design-101">ByteByteGo&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/binhnguyennus/awesome-scalability">binhnguyennus | Important Articles/Algos/Problems&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/ashishps1/awesome-system-design-resources">ashishps1 | Articles/Problems&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/CodingChallengesFYI/SharedSolutions">CodingChallengesFYI | Problems&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/systemdesign42/system-design-academy">systemdesign42 | Theory/Problems&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/papers-we-love/papers-we-love">How to read academy papers&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels">Consistency Theory&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/">Design Patterns&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.enterpriseintegrationpatterns.com/ramblings/eip1_examples_updated.html">Enterprise Integration Patterns&lt;/a>&lt;/li>
-&lt;li>Transaction Patterns&lt;/li>
-&lt;/ul>
-&lt;h2 id="low-level">Low Level&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/himanshukr-nsit/Object-Oriented-Design-Pattern-Interview">https://github.com/himanshukr-nsit/Object-Oriented-Design-Pattern-Interview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/tssovi/grokking-the-object-oriented-design-interview">https://github.com/tssovi/grokking-the-object-oriented-design-interview&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/CodingChallengesFYI/SharedSolutions">https://github.com/CodingChallengesFYI/SharedSolutions&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/coding-parrot/Low-Level-Design">https://github.com/coding-parrot/Low-Level-Design&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/prasadgujar/low-level-design-primer">https://github.com/prasadgujar/low-level-design-primer&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://medium.com/javarevisited/25-software-design-interview-questions-to-crack-any-programming-and-technical-interviews-4b8237942db0">25 Software Design Interview Questions to Crack Any Programming and Technical Interviews&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="roadmaps">Roadmaps&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://github.com/nilbuild/developer-roadmap">https://github.com/nilbuild/developer-roadmap&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="unique-problems">Unique Problems&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://systemdesign.one/distributed-counter-system-design/">Distributed Counter&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="research-papers">Research Papers&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf">Google File System&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf">BigTable&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://cloud.google.com/blog/products/storage-data-transfer/a-peek-behind-colossus-googles-file-system">Colossus - GFS Successor&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf">Chubby Lock Service&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf">Spanner: Google’s Globally-Distributed Database&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/papers/dapper-2010-1.pdf">Dapper, a Large-Scale Distributed Systems Tracing Infrastructure&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://15799.courses.cs.cmu.edu/fall2013/static/papers/p135-malewicz.pdf">Pregel: A System for Large-Scale Graph Processing&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.vldb.org/pvldb/vol14/p2986-sankaranarayanan.pdf">Napa: Powering Scalable Data Warehousing with Robust Query Performance at Google&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf">TensorFlow: A System for Large-Scale Machine Learning&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://assets.amazon.science/dc/2b/4ef2b89649f9a393d37d3e042f4e/amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases.pdf">Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf">Dynamo: Amazon’s Highly Available Key-value Store&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.foundationdb.org/files/fdb-paper.pdf">FoundationDB: A Distributed Unbundled Transactional Key Value Store&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2209.07663">Monolith: Real Time Recommendation System With Collisionless Embedding Table&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf">Scalability! But at what COST?&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.vldb.org/pvldb/vol8/p1816-teller.pdf">Gorilla: A Fast, Scalable, In-Memory Time Series Database&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf">Cassandra - A Decentralized Structured Storage System&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.cidrdb.org/cidr2023/papers/p83-yadav.pdf">FlexiRaft: Flexible Quorums with Raft&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf">Scaling Memcache at Facebook&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://dl.acm.org/doi/pdf/10.1145/3517745.3561430">A Microscopic View of Bursts, Buffer Contention, and Loss in Data Centers&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf">TAO: Facebook’s Distributed Data Store for the Social Graph&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://arxiv.org/pdf/2010.09974">Scalable Statistical Root Cause Analysis on App Telemetry&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://thrift.apache.org/static/files/thrift-20070401.pdf">Thrift: Scalable Cross-Language Services Implementation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.usenix.org/system/files/osdi23-saokar.pdf">ServiceRouter: Hyperscale and Minimal Cost Service Mesh at Meta&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://notes.stephenholiday.com/Kafka.pdf">Kafka: a Distributed Messaging System for Log Processing&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://asterios.katsifodimos.com/assets/publications/flink-deb.pdf">Apache Flink: Stream and Batch Processing in a Single Engine&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Short notes on Algorithms</title><link>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</link><pubDate>Sun, 25 Aug 2019 22:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</guid><description>&lt;h3 id="what-is-an-algorithm">What is an Algorithm?&lt;/h3>
-&lt;ul>
-&lt;li>An Algorithm is a sequence of steps to solve a problem.&lt;/li>
-&lt;li>An Algorithm is a set of steps of operations to solve a problem performing calculation, data processing, and automated reasoning tasks.&lt;/li>
-&lt;li>An Algorithm is the best way to represent the solution of a particular problem in a very simple and efficient way.&lt;/li>
-&lt;li>Algorithm is independent from any programming languages.&lt;/li>
-&lt;/ul>
-&lt;h3 id="what-is-analysis-of-algorithm">What is Analysis of algorithm?&lt;/h3>
-&lt;p>Analysis of algorithm is the process of analyzing the problem-solving capability of the algorithm in terms of the time and size required.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interview on My Workbook</title><link>https://ashishdoneriya.github.io/topics/interview/</link><description>Recent content in Interview on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 20 Jun 2026 03:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/topics/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>UI Resources</title><link>https://ashishdoneriya.github.io/ui-resources.html</link><pubDate>Sat, 20 Jun 2026 03:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/ui-resources.html</guid><description>&lt;h2 id="vuejs-resources"&gt;Vue.js Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/vuejs/awesome-vue"&gt;Awesome Vue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://curated.vuejs.org/"&gt;Vue Curated Marketplace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.webf.zone/vue-js-forms-components-and-considerations-d81b3ffe9efb"&gt;Vue Forms, Components, and Considerations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://vuejsexamples.com/vuejs-tables-and-select-all-checkbox/"&gt;Vue.js Tables with Select All Checkbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stackoverflow.com/questions/47402086/restrict-input-to-single-digit-in-vuejs"&gt;Restrict Vue Input to a Single Digit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stackoverflow.com/questions/39834698/emit-an-event-when-a-specific-piece-of-state-changes-in-vuex-store"&gt;Vuex Emit Event on State Change&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="vuejs-ui-libraries"&gt;Vue.js UI Libraries&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://element.eleme.io/#/en-US"&gt;Element UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/rafaelpimpa/buefy"&gt;Buefy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://vuematerial.io/"&gt;Vue Material&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/JosephusPaye/Keen-UI"&gt;Keen UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://didi.github.io/cube-ui/#/en-US"&gt;Cube UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://vue.ant.design/docs/vue/introduce/"&gt;Ant Design Vue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://aidewoode.com/office-ui-fabric-vue/#/GetStarted"&gt;Office UI Fabric Vue&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="vuejs-components--plugins"&gt;Vue.js Components &amp;amp; Plugins&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/shakee93/vue-toasted"&gt;Vue Toasted&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://vuejs.creative-tim.com/vue-form-wizard/#/"&gt;Vue Form Wizard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/karol-f/vue-custom-element"&gt;Vue Custom Element&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://vue-snack.surge.sh/#/?id=vue-snackbar"&gt;Vue Snack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/epicmaxco/epic-spinners?utm_source=mybridge&amp;amp;utm_medium=blog&amp;amp;utm_campaign=read_more"&gt;Epic Spinners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://vuex.vuejs.org/"&gt;Vuex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/chrisvfritz/prerender-spa-plugin"&gt;Prerender SPA Plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/FranckFreiburger/http-vue-loader"&gt;HTTP Vue Loader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yansern.github.io/vue-multipane/demo/index.html"&gt;Vue Multipane&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/probil/vue-moveable?fbclid=IwAR0B7zkYecHWUyHO7g5JJ2EB2uZmZvuxGquGiiCcLu8lAX69iSZOX-kQDs0"&gt;Vue Moveable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://vuedose.tips/tips/the-most-modern-pie-chart-component-using-css-conic-gradient-and-vue-js/?fbclid=IwAR2CP5jNaqEWf_PIEl-qjZfxl-_6Uwd_WRvcybgihDoW4r0oo3rV2E0AGRI"&gt;Vue CSS Conic Gradient Pie Chart&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.npmjs.com/package/vue-pdf?fbclid=IwAR2JiC_3irdafH26yPS6PNiwA0nFPj8wEQmmqlEOAnpbJ_0KcauuGPwgJ7Y"&gt;Vue PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://dev.to/lampewebdev/vuejs-pages-with-dynamic-layouts-problems-and-a-solution-4460?fbclid=IwAR23MQHkSJyv-T1cXfl60Tyup3FMCV6FrWzh_4mDPT0CrvkhJEI5pXXHooI"&gt;Vue Dynamic Layouts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stegosource.com/create-lazy-loading-image-component-faster-vue-js-apps/?fbclid=IwAR2FKQlw0MDIZjktVZGbwkckqcOEjIDHAx-1SeOhb5CGvwA-hwQUn792PvI"&gt;Vue Lazy Loading Image Component&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/F-loat/vue-simplemde"&gt;Vue SimpleMDE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://morioh.com/p/8a5f51d14a4d?f=5c492728f538881a2158699f&amp;amp;fbclid=IwAR0wKjMysvB1iBNv3vqYzhq4S5PT17tHq-9-UF46w1tQmoDurHPM5crlmM4"&gt;Vue Image Loader Component&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/FranckFreiburger/vue3-sfc-loader"&gt;Vue 3 SFC Loader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stegosource.com/unique-accessible-lightweight-vue-components/?fbclid=IwAR0FY5GwaW8TXR46N-VDZp0qrqQ6_EhJf-lNCEsnCxNZpbwl77fQCg-nqzQ"&gt;Accessible Lightweight Vue Components&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="css-frameworks"&gt;CSS Frameworks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bulma.io/"&gt;Bulma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://materializecss.com/"&gt;Materialize CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://designmodo.github.io/Flat-UI/#"&gt;Flat UI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://foundation.zurb.com/"&gt;Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="layout--responsive-design"&gt;Layout &amp;amp; Responsive Design&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://troolee.github.io/gridstack.js/"&gt;Gridstack.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://csslayoutgenerator.com/"&gt;CSS Layout Generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.cssportal.com/layout-generator/"&gt;CSS Portal Layout Generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yoksel.github.io/flex-cheatsheet/"&gt;Flexbox Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://css-tricks.com/snippets/css/complete-guide-grid/"&gt;A Complete Guide to CSS Grid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://csslayout.io/patterns/"&gt;CSS Layout Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="ui-interaction-libraries"&gt;UI Interaction Libraries&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ytiurin.github.io/html5tooltipsjs/"&gt;HTML5 Tooltips&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://idangero.us/swiper/demos/"&gt;Swiper Mobile Touch Slider&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://wicky.nillia.ms/headroom.js/"&gt;Headroom.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ianlunn.github.io/Hover/"&gt;Hover.css&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/pqina/filepond"&gt;FilePond&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/inorganik/CountUp.js"&gt;CountUp.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="animation--loading"&gt;Animation &amp;amp; Loading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://tobiasahlin.com/spinkit/"&gt;SpinKit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://loading.io/"&gt;Loading.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://geeksretreat.wordpress.com/2016/01/14/windows-10-progress-widget-with-the-html5-canvas/"&gt;Windows 10 Canvas Progress Widget&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://maxwellito.github.io/vivus/"&gt;Vivus.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codepen.io/ruslan_khomiak/pen/QGmwMP"&gt;Material Floating Action Button in Pure CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.npmjs.com/package/minimal_fab"&gt;Minimal FAB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="colors--icons"&gt;Colors &amp;amp; Icons&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://html-color-codes.info/"&gt;HTML Color Codes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://clrs.cc/"&gt;Colors by CLRS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://fontello.com/"&gt;Fontello&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="templates--component-discovery"&gt;Templates &amp;amp; Component Discovery&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://devarchy.com/frontend"&gt;Frontend Libraries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bit.dev/"&gt;Bit Components&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://htmlrev.com/"&gt;Free HTML Templates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tools--playgrounds"&gt;Tools &amp;amp; Playgrounds&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://jsbin.com/?html,css,console,output"&gt;JS Bin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://jsbeautifier.org/"&gt;JS Beautifier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bogdan-lyashenko.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html"&gt;JS Flowchart&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="articles--guides"&gt;Articles &amp;amp; Guides&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.html5rocks.com/en/tutorials/?page=3"&gt;HTML5 Rocks Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://samsaffron.com/archive/2015/12/29/websockets-caution-required"&gt;WebSockets, Caution Required&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.smashingmagazine.com/2019/08/faster-image-loading-embedded-previews/#determine-byte-offset"&gt;Faster Image Loading with Embedded Image Previews&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="javascript-runtime"&gt;JavaScript Runtime&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://bun.sh/"&gt;Bun&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Software Engineering Resources</title><link>https://ashishdoneriya.github.io/software-engineering-resources.html</link><pubDate>Sat, 20 Jun 2026 02:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/software-engineering-resources.html</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture"&gt;What is Enterprise Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture_framework"&gt;What is Enterprise Architecture Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://obamawhitehouse.archives.gov/omb/e-gov/FEA"&gt;Federal Enterprise Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gartner.com/en/doc/enterprise-architecture-function-primer-for-2023"&gt;Enterprise Architecture Function Primer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html"&gt;The Clean Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://publications.opengroup.org/standards/togaf"&gt;Open Group | Architecture Certification&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.geeksforgeeks.org/software-engineering/kanban-agile-methodology/"&gt;Kanban&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.levels.fyi/t/software-engineer/locations/india"&gt;Levels.fyi | Salaries&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="career-gap"&gt;Career Gap&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.learnbay.co/"&gt;Learnbay&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mygreatlearning.com/"&gt;Great Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="freelancing"&gt;Freelancing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.upwork.com/"&gt;Upwork&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.topcoder.com/"&gt;TopCoder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="books"&gt;Books&lt;/h2&gt;
+&lt;h3 id="architecture"&gt;Architecture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Building+Evolutionary+Architectures"&gt;Building Evolutionary Architectures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=The+Software+Architect+Elevator"&gt;The Software Architect Elevator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Patterns+of+Distributed+Systems"&gt;Patterns of Distributed Systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Collaborative+Software+Design"&gt;Collaborative Software Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="cloud--solutions-architecture"&gt;Cloud &amp;amp; Solutions Architecture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=AWS+for+Solutions+Architects"&gt;AWS for Solutions Architects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Serverless+Architectures+on+AWS"&gt;Serverless Architectures on AWS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Solutions+Architect%E2%80%99s+Handbook"&gt;Solutions Architect’s Handbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="data-engineering"&gt;Data Engineering&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Fundamentals+of+Data+Engineering"&gt;Fundamentals of Data Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Deciphering+Data+Architectures"&gt;Deciphering Data Architectures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Data+Pipelines+Pocket+Reference"&gt;Data Pipelines Pocket Reference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Designing+Cloud+Data+Platforms"&gt;Designing Cloud Data Platforms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="streaming--kafka"&gt;Streaming &amp;amp; Kafka&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Kafka+in+Action"&gt;Kafka in Action&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Streaming+Data+Pipelines+with+Kafka"&gt;Streaming Data Pipelines with Kafka&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Learning+Spark"&gt;Learning Spark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Spark+in+Action"&gt;Spark in Action&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="security"&gt;Security&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Agile+Application+Security"&gt;Agile Application Security&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Microservices+Security+in+Action"&gt;Microservices Security in Action&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Spring+Security+in+Action"&gt;Spring Security in Action&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="microservices--apis"&gt;Microservices &amp;amp; APIs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Cracking+Microservices+Interview"&gt;Cracking Microservices Interview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Designing+APIs+with+Swagger+and+OpenAPI"&gt;Designing APIs with Swagger and OpenAPI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="frontend-architecture"&gt;Frontend Architecture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Micro+Frontends+in+Action"&gt;Micro Frontends in Action&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="java--spring"&gt;Java &amp;amp; Spring&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Grokking+the+Spring+Boot+Interview"&gt;Grokking the Spring Boot Interview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="concurrency--performance"&gt;Concurrency &amp;amp; Performance&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Grokking+Concurrency"&gt;Grokking Concurrency&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Parallel+and+High+Performance+Computing"&gt;Parallel and High Performance Computing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="engineering-culture--product-thinking"&gt;Engineering Culture &amp;amp; Product Thinking&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Think+Like+Amazon"&gt;Think Like Amazon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kubernetes"&gt;Kubernetes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.google.com/search?q=Kubernetes+in+Action"&gt;Kubernetes in Action&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="blogs"&gt;Blogs&lt;/h2&gt;
+&lt;h3 id="system-design--software-architecture"&gt;System Design &amp;amp; Software Architecture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://newsletter.systemdesign.one/"&gt;The System Design Newsletter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.bytebytego.com/"&gt;ByteByteGo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bytesizeddesign.substack.com/"&gt;Byte-Sized Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://newsletter.systemdesigncodex.com/"&gt;System Design Codex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://newsletter.techworld-with-milan.com/"&gt;Tech World With Milan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="software-engineering--technical-deep-dives"&gt;Software Engineering &amp;amp; Technical Deep Dives&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://read.engineerscodex.com/"&gt;Engineer’s Codex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://craftbettersoftware.com/"&gt;Craft Better Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codingchallenges.substack.com/?r=1to968"&gt;Coding Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="engineering-career-growth"&gt;Engineering Career Growth&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://levelupsoftwareengineering.substack.com/"&gt;Level Up Software Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://careercutler.substack.com/"&gt;High Growth Engineer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.developing.dev/"&gt;The Peterman Post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.thecaringtechie.com/"&gt;The Caring Techie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://thesoftwareengineeringtimes.substack.com/"&gt;The Software Engineering Times&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="tech-lead--engineering-leadership"&gt;Tech Lead &amp;amp; Engineering Leadership&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://newsletter.eng-leadership.com/"&gt;Engineering Leadership&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://anemarifiser.substack.com/"&gt;Level Up as a Tech Lead&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://newsletter.techleadmentor.com/?r=1to968"&gt;Techlead Mentor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zaidesanton.substack.com/"&gt;Manager.dev&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.alexewerlof.com/"&gt;Alex Ewerlöf Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hybridhacker.email/"&gt;Hybrid Hacker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="cto--executive-engineering-leadership"&gt;CTO &amp;amp; Executive Engineering Leadership&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.snackablecto.coach/?r=1to968"&gt;snackableCTO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.amazingcto.com/cto-newsletter/"&gt;Amazing CTO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.visionarycto.com/p/cto-career-path-before-and-after"&gt;CTO Career Path&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Java Resources</title><link>https://ashishdoneriya.github.io/java-resources.html</link><pubDate>Sat, 20 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/java-resources.html</guid><description>&lt;h2 id="articles"&gt;Articles&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/HugoMatilla/Effective-JAVA-Summary"&gt;Effective Java Summary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.jrebel.com/blog/solid-principles-in-java"&gt;SOLID Principles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"&gt;SOLID Principles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.oracle.com/javase/tutorial/deployment/jar/index.html"&gt;Packaging Programs in JAR Files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.oracle.com/cd/E19455-01/806-3461/6jck06gqd/index.html"&gt;JRE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/platform-engineer/understanding-jvm-architecture-22c0ddf09722"&gt;JVM Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/javamadetranquil/jvm-architecture-29f6ab33e208"&gt;JVM Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.infoworld.com/article/2338644/all-about-java-class-loaders.html"&gt;Java Classloaders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stackoverflow.com/questions/3849634/static-allocation-in-java-heap-stack-and-permanent-generation"&gt;Java Heap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html"&gt;G1 Garbage Collector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=88E86quLmQA"&gt;ZGC Garbage Collector&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.baeldung.com/java-concurrency"&gt;Java Concurrency Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://jenkov.com/tutorials/java-util-concurrent/index.html"&gt;Java Concurrency&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://jenkov.com/tutorials/java-util-concurrent/index.html"&gt;Java Concurrency Utilities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://web.mit.edu/6.005/www/fa15/classes/23-locks/"&gt;Locks and Synchronization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://quarkus.io/guides/virtual-threads"&gt;Virtual Threads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html"&gt;Concurrency&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://javarevisited.blogspot.com/2015/05/top-10-java-multithreading-and.html"&gt;Multithreading Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://javatechonline.com/singleton-design-pattern-in-java-with-all-scenarios"&gt;Singleton Design Pattern&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.geeksforgeeks.org/system-design/java-design-patterns/"&gt;Java Design Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.baeldung.com/java-externalizable"&gt;Externalizable Interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://jenkov.com/tutorials/java-collections/index.html"&gt;Java Collections&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="toolslibraries"&gt;Tools/Libraries&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://java-decompiler.github.io/#jd-gui-download"&gt;Java Decompiler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://modelmapper.org/"&gt;Model Mapper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="youtube"&gt;Youtube&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/c/JavaBrainsChannel/videos"&gt;Java Brains&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/channel/UCiz26UeGvcTy4_M3Zhgk7FQ/playlists"&gt;Defog Tech&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="questions-to-clear"&gt;Questions to Clear&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;What is Hotspot?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="interview-questions"&gt;Interview Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.glassdoor.co.in/Interview/senior-java-developer-interview-questions-SRCH_KO0,21.htm"&gt;Glassdoor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.java67.com/2013/07/15-advanced-core-java-interview-questions-answers-senior-experienced-5-6-years-programmers-developers.html"&gt;Questions for experienced developers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://resources.workable.com/senior-java-developer-interview-questions"&gt;Senior Java developer interview questions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.interviewcake.com/java-interview-questions"&gt;https://www.interviewcake.com/java-interview-questions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="websites"&gt;Websites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/javarevisited"&gt;Java Revisited&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://zetcode.com/java/"&gt;Zetcode&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="spring-boot"&gt;Spring Boot&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://vipulkumarsviit.medium.com/how-to-enable-ssl-in-spring-boot-application-dc67a6897c67"&gt;Enable SSL in Spring Boot Application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.baeldung.com/spring-open-session-in-view"&gt;Spring&amp;rsquo;s Open Session in View&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.callicoder.com/spring-boot-websocket-chat-example/"&gt;Building a chat application with Spring Boot and WebSocket&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.baeldung.com/spring-cloud-series"&gt;Spring Cloud Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://howtodoinjava.com/spring-boot/spring-boot/"&gt;Spring Boot Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>DSA Algo Resources</title><link>https://ashishdoneriya.github.io/dsa-algo-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/dsa-algo-resources.html</guid><description>&lt;h2 id="practice"&gt;Practice&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://takeuforward.org/"&gt;Striver Sheets&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.naukri.com/code360/problems"&gt;code360&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://leetcode.com/"&gt;Leetcode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cses.fi/problemset/list/"&gt;CSES&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[Interview]&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.geeksforgeeks.org/dsa/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/"&gt;Must Do Coding Interview Questions for MAANG Companies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.programiz.com/dsa/getting-started"&gt;DSA Basics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="learning"&gt;Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/playlist?list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p"&gt;Anuj Kumar Sharma DSA Complete&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/jwasham/coding-interview-university"&gt;jwasham/coding-interview-university&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/@abdul_bari"&gt;Abdul Bari&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go"&gt;Aditya Version - Dynamic Programming&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="articles"&gt;Articles&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://medium.com/free-code-camp/an-intro-to-algorithms-dynamic-programming-dd00873362bb"&gt;An intro to Algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/better-programming/a-practical-introduction-to-big-o-a9f9c416aaaf"&gt;A Practical Introduction to Big O&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://interviewnoodle.com/the-ultimate-strategy-to-preparing-for-the-coding-interview-ee9f7eb439f3"&gt;The Ultimate Strategy for Preparing for a Coding Interview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Introsort"&gt;Introsort&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Block_sort"&gt;Block sort&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@al.eks/the-ultimate-guide-to-dynamic-programming-65865ef7ec5b"&gt;The Ultimate Guide to Dynamic Programming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://samanbatool08.medium.com/sliding-window-algorithms-4d2e517ea31d"&gt;Sliding Window Algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/catalysts-reachout/how-do-i-start-learning-or-strengthen-my-knowledge-of-data-structures-and-algorithms-d62b3108a01a"&gt;Complete RoadMap of DSA in 120 Days&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Magnet: Push-based Shuffle Service for Large-scale Data Processing</title><link>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/magnet-push-based-shuffle-service.html</guid><description>&lt;p&gt;The paper &lt;strong&gt;“Magnet: Push-based Shuffle Service for Large-scale Data Processing”&lt;/strong&gt; is from LinkedIn.&lt;/p&gt;
+&lt;p&gt;The useful part is this:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spark shuffle becomes slow at large scale because reducers read billions of tiny shuffle blocks from disk/network. Magnet fixes that by converting tiny fragmented shuffle blocks into larger merged blocks before reducers fetch them.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="core-problem"&gt;Core Problem&lt;/h2&gt;
+&lt;p&gt;The central problem is not:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;“Spark is slow”&lt;/li&gt;
+&lt;li&gt;“Network is slow”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The real problem is:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tiny random reads.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>System Design Resources</title><link>https://ashishdoneriya.github.io/system-design-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/system-design-resources.html</guid><description>&lt;h2 id="high-level"&gt;High Level&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/donnemartin/system-design-primer"&gt;System Design Primer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/arpitbbhayani/system-design-questions"&gt;Arpit Bhayani System Design Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/InterviewReady/system-design-resource"&gt;Interview Ready&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/javabuddy/best-system-design-resources"&gt;JavaBuddy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/shashank88/system_design"&gt;shashank88&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/checkcheckzz/system-design-interview"&gt;checkcheckzz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/naniroot/naniz-hugo-site/blob/master/content/posts/system_design_interviews_cheatsheet.md"&gt;naniroot | Important Algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ByteByteGoHq/system-design-101"&gt;ByteByteGo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/binhnguyennus/awesome-scalability"&gt;binhnguyennus | Important Articles/Algos/Problems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ashishps1/awesome-system-design-resources"&gt;ashishps1 | Articles/Problems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/CodingChallengesFYI/SharedSolutions"&gt;CodingChallengesFYI | Problems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/systemdesign42/system-design-academy"&gt;systemdesign42 | Theory/Problems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/papers-we-love/papers-we-love"&gt;How to read academy papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels"&gt;Consistency Theory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/"&gt;Design Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.enterpriseintegrationpatterns.com/ramblings/eip1_examples_updated.html"&gt;Enterprise Integration Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Transaction Patterns&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="low-level"&gt;Low Level&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/himanshukr-nsit/Object-Oriented-Design-Pattern-Interview"&gt;https://github.com/himanshukr-nsit/Object-Oriented-Design-Pattern-Interview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tssovi/grokking-the-object-oriented-design-interview"&gt;https://github.com/tssovi/grokking-the-object-oriented-design-interview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/CodingChallengesFYI/SharedSolutions"&gt;https://github.com/CodingChallengesFYI/SharedSolutions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/coding-parrot/Low-Level-Design"&gt;https://github.com/coding-parrot/Low-Level-Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/prasadgujar/low-level-design-primer"&gt;https://github.com/prasadgujar/low-level-design-primer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/javarevisited/25-software-design-interview-questions-to-crack-any-programming-and-technical-interviews-4b8237942db0"&gt;25 Software Design Interview Questions to Crack Any Programming and Technical Interviews&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="roadmaps"&gt;Roadmaps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/nilbuild/developer-roadmap"&gt;https://github.com/nilbuild/developer-roadmap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="unique-problems"&gt;Unique Problems&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://systemdesign.one/distributed-counter-system-design/"&gt;Distributed Counter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="research-papers"&gt;Research Papers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf"&gt;Google File System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf"&gt;BigTable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cloud.google.com/blog/products/storage-data-transfer/a-peek-behind-colossus-googles-file-system"&gt;Colossus - GFS Successor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf"&gt;Chubby Lock Service&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf"&gt;Spanner: Google’s Globally-Distributed Database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://static.googleusercontent.com/media/research.google.com/en//archive/papers/dapper-2010-1.pdf"&gt;Dapper, a Large-Scale Distributed Systems Tracing Infrastructure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://15799.courses.cs.cmu.edu/fall2013/static/papers/p135-malewicz.pdf"&gt;Pregel: A System for Large-Scale Graph Processing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.vldb.org/pvldb/vol14/p2986-sankaranarayanan.pdf"&gt;Napa: Powering Scalable Data Warehousing with Robust Query Performance at Google&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf"&gt;TensorFlow: A System for Large-Scale Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://assets.amazon.science/dc/2b/4ef2b89649f9a393d37d3e042f4e/amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases.pdf"&gt;Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf"&gt;Dynamo: Amazon’s Highly Available Key-value Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.foundationdb.org/files/fdb-paper.pdf"&gt;FoundationDB: A Distributed Unbundled Transactional Key Value Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2209.07663"&gt;Monolith: Real Time Recommendation System With Collisionless Embedding Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-mcsherry.pdf"&gt;Scalability! But at what COST?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.vldb.org/pvldb/vol8/p1816-teller.pdf"&gt;Gorilla: A Fast, Scalable, In-Memory Time Series Database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf"&gt;Cassandra - A Decentralized Structured Storage System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cidrdb.org/cidr2023/papers/p83-yadav.pdf"&gt;FlexiRaft: Flexible Quorums with Raft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf"&gt;Scaling Memcache at Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://dl.acm.org/doi/pdf/10.1145/3517745.3561430"&gt;A Microscopic View of Bursts, Buffer Contention, and Loss in Data Centers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf"&gt;TAO: Facebook’s Distributed Data Store for the Social Graph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2010.09974"&gt;Scalable Statistical Root Cause Analysis on App Telemetry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://thrift.apache.org/static/files/thrift-20070401.pdf"&gt;Thrift: Scalable Cross-Language Services Implementation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.usenix.org/system/files/osdi23-saokar.pdf"&gt;ServiceRouter: Hyperscale and Minimal Cost Service Mesh at Meta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://notes.stephenholiday.com/Kafka.pdf"&gt;Kafka: a Distributed Messaging System for Log Processing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://asterios.katsifodimos.com/assets/publications/flink-deb.pdf"&gt;Apache Flink: Stream and Batch Processing in a Single Engine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Short notes on Algorithms</title><link>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</link><pubDate>Sun, 25 Aug 2019 22:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/analysis-of-algorithms-short-note.html</guid><description>&lt;h3 id="what-is-an-algorithm"&gt;What is an Algorithm?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;An Algorithm is a sequence of steps to solve a problem.&lt;/li&gt;
+&lt;li&gt;An Algorithm is a set of steps of operations to solve a problem performing calculation, data processing, and automated reasoning tasks.&lt;/li&gt;
+&lt;li&gt;An Algorithm is the best way to represent the solution of a particular problem in a very simple and efficient way.&lt;/li&gt;
+&lt;li&gt;Algorithm is independent from any programming languages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="what-is-analysis-of-algorithm"&gt;What is Analysis of algorithm?&lt;/h3&gt;
+&lt;p&gt;Analysis of algorithm is the process of analyzing the problem-solving capability of the algorithm in terms of the time and size required.&lt;/p&gt;</description></item></channel></rss>
