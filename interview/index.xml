@@ -46,6 +46,13 @@
 &lt;ul>
 &lt;li>&lt;a href="https://medium.com/javarevisited">Java Revisited&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://jenkov.com/tutorials/java-collections/index.html">&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="spring-boot">Spring Boot&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://vipulkumarsviit.medium.com/how-to-enable-ssl-in-spring-boot-application-dc67a6897c67">Enable SSL in Spring Boot Application&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.baeldung.com/spring-open-session-in-view">Spring&amp;rsquo;s Open Session in View&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.callicoder.com/spring-boot-websocket-chat-example/">Building a chat application with Spring Boot and WebSocket&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.baeldung.com/spring-cloud-series">Spring Cloud Series&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>DSA Algo Resources</title><link>https://ashishdoneriya.github.io/dsa-algo-resources.html</link><pubDate>Fri, 19 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/dsa-algo-resources.html</guid><description>&lt;h2 id="practice">Practice&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://takeuforward.org/">Striver Sheets&lt;/a>&lt;/li>
