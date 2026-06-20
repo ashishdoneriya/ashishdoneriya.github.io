@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interviews on My Workbook</title><link>https://ashishdoneriya.github.io/interview/</link><description>Recent content in Interviews on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 20 Jun 2026 02:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>Software Engineering Resources</title><link>https://ashishdoneriya.github.io/software-engineering-resources.html</link><pubDate>Sat, 20 Jun 2026 02:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/software-engineering-resources.html</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interviews on My Workbook</title><link>https://ashishdoneriya.github.io/interview/</link><description>Recent content in Interviews on My Workbook</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 20 Jun 2026 03:00:00 +0530</lastBuildDate><atom:link href="https://ashishdoneriya.github.io/interview/index.xml" rel="self" type="application/rss+xml"/><item><title>UI Resources</title><link>https://ashishdoneriya.github.io/ui-resources.html</link><pubDate>Sat, 20 Jun 2026 03:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/ui-resources.html</guid><description>&lt;h2 id="vuejs-resources">Vue.js Resources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/vuejs/awesome-vue">Awesome Vue&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://curated.vuejs.org/">Vue Curated Marketplace&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.webf.zone/vue-js-forms-components-and-considerations-d81b3ffe9efb">Vue Forms, Components, and Considerations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://vuejsexamples.com/vuejs-tables-and-select-all-checkbox/">Vue.js Tables with Select All Checkbox&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/47402086/restrict-input-to-single-digit-in-vuejs">Restrict Vue Input to a Single Digit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://stackoverflow.com/questions/39834698/emit-an-event-when-a-specific-piece-of-state-changes-in-vuex-store">Vuex Emit Event on State Change&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="vuejs-ui-libraries">Vue.js UI Libraries&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://element.eleme.io/#/en-US">Element UI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rafaelpimpa/buefy">Buefy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://vuematerial.io/">Vue Material&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/JosephusPaye/Keen-UI">Keen UI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://didi.github.io/cube-ui/#/en-US">Cube UI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://vue.ant.design/docs/vue/introduce/">Ant Design Vue&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://aidewoode.com/office-ui-fabric-vue/#/GetStarted">Office UI Fabric Vue&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="vuejs-components--plugins">Vue.js Components &amp;amp; Plugins&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/shakee93/vue-toasted">Vue Toasted&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://vuejs.creative-tim.com/vue-form-wizard/#/">Vue Form Wizard&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/karol-f/vue-custom-element">Vue Custom Element&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://vue-snack.surge.sh/#/?id=vue-snackbar">Vue Snack&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/epicmaxco/epic-spinners?utm_source=mybridge&amp;amp;utm_medium=blog&amp;amp;utm_campaign=read_more">Epic Spinners&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://vuex.vuejs.org/">Vuex&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/chrisvfritz/prerender-spa-plugin">Prerender SPA Plugin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/FranckFreiburger/http-vue-loader">HTTP Vue Loader&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yansern.github.io/vue-multipane/demo/index.html">Vue Multipane&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/probil/vue-moveable?fbclid=IwAR0B7zkYecHWUyHO7g5JJ2EB2uZmZvuxGquGiiCcLu8lAX69iSZOX-kQDs0">Vue Moveable&lt;/a>&lt;/li>
+&lt;li>[Vue CSS Conic Gradient Pie Chart](&lt;a href="https://vuedose.tips/tips/the-most-modern-pie-chart-component-using-css-conic-gradient-and-vue-js/?fbclid=IwAR2CP5jNaqEWf_PIEl-">https://vuedose.tips/tips/the-most-modern-pie-chart-component-using-css-conic-gradient-and-vue-js/?fbclid=IwAR2CP5jNaqEWf_PIEl-&lt;/a>
+qjZfxl-_6Uwd_WRvcybgihDoW4r0oo3rV2E0AGRI)&lt;/li>
+&lt;li>&lt;a href="https://www.npmjs.com/package/vue-pdf?fbclid=IwAR2JiC_3irdafH26yPS6PNiwA0nFPj8wEQmmqlEOAnpbJ_0KcauuGPwgJ7Y">Vue PDF&lt;/a>&lt;/li>
+&lt;li>[Vue Dynamic Layouts](&lt;a href="https://dev.to/lampewebdev/vuejs-pages-with-dynamic-layouts-problems-and-a-solution-4460?fbclid=IwAR23MQHkSJyv-">https://dev.to/lampewebdev/vuejs-pages-with-dynamic-layouts-problems-and-a-solution-4460?fbclid=IwAR23MQHkSJyv-&lt;/a>
+T1cXfl60Tyup3FMCV6FrWzh_4mDPT0CrvkhJEI5pXXHooI)&lt;/li>
+&lt;li>[Vue Lazy Loading Image Component](&lt;a href="https://stegosource.com/create-lazy-loading-image-component-faster-vue-js-apps/?fbclid=IwAR2FKQlw0MDIZjktVZGbwkckqcOEjIDHAx-1SeOhb5CGvwA-">https://stegosource.com/create-lazy-loading-image-component-faster-vue-js-apps/?fbclid=IwAR2FKQlw0MDIZjktVZGbwkckqcOEjIDHAx-1SeOhb5CGvwA-&lt;/a>
+hwQUn792PvI)&lt;/li>
+&lt;li>&lt;a href="https://github.com/F-loat/vue-simplemde">Vue SimpleMDE&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://morioh.com/p/8a5f51d14a4d?f=5c492728f538881a2158699f&amp;amp;fbclid=IwAR0wKjMysvB1iBNv3vqYzhq4S5PT17tHq-9-UF46w1tQmoDurHPM5crlmM4">Vue Image Loader Component&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/FranckFreiburger/vue3-sfc-loader">Vue 3 SFC Loader&lt;/a>&lt;/li>
+&lt;li>[Accessible Lightweight Vue Components](&lt;a href="https://stegosource.com/unique-accessible-lightweight-vue-components/?fbclid=IwAR0FY5GwaW8TXR46N-VDZp0qrqQ6_EhJf-">https://stegosource.com/unique-accessible-lightweight-vue-components/?fbclid=IwAR0FY5GwaW8TXR46N-VDZp0qrqQ6_EhJf-&lt;/a>
+lNCEsnCxNZpbwl77fQCg-nqzQ)&lt;/li>
+&lt;/ul>
+&lt;h2 id="css-frameworks">CSS Frameworks&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://bulma.io/">Bulma&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://materializecss.com/">Materialize CSS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://designmodo.github.io/Flat-UI/#">Flat UI&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://foundation.zurb.com/">Foundation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="layout--responsive-design">Layout &amp;amp; Responsive Design&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://troolee.github.io/gridstack.js/">Gridstack.js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://csslayoutgenerator.com/">CSS Layout Generator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.cssportal.com/layout-generator/">CSS Portal Layout Generator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://yoksel.github.io/flex-cheatsheet/">Flexbox Cheatsheet&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://css-tricks.com/snippets/css/complete-guide-grid/">A Complete Guide to CSS Grid&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://csslayout.io/patterns/">CSS Layout Patterns&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="ui-interaction-libraries">UI Interaction Libraries&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://ytiurin.github.io/html5tooltipsjs/">HTML5 Tooltips&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://idangero.us/swiper/demos/">Swiper Mobile Touch Slider&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://wicky.nillia.ms/headroom.js/">Headroom.js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://ianlunn.github.io/Hover/">Hover.css&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/pqina/filepond">FilePond&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/inorganik/CountUp.js">CountUp.js&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="animation--loading">Animation &amp;amp; Loading&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://tobiasahlin.com/spinkit/">SpinKit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://loading.io/">Loading.io&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://geeksretreat.wordpress.com/2016/01/14/windows-10-progress-widget-with-the-html5-canvas/">Windows 10 Canvas Progress Widget&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://maxwellito.github.io/vivus/">Vivus.js&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://codepen.io/ruslan_khomiak/pen/QGmwMP">Material Floating Action Button in Pure CSS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.npmjs.com/package/minimal_fab">Minimal FAB&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="colors--icons">Colors &amp;amp; Icons&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://html-color-codes.info/">HTML Color Codes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://clrs.cc/">Colors by CLRS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://fontello.com/">Fontello&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="templates--component-discovery">Templates &amp;amp; Component Discovery&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://devarchy.com/frontend">Frontend Libraries&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bit.dev/">Bit Components&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://htmlrev.com/">Free HTML Templates&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="tools--playgrounds">Tools &amp;amp; Playgrounds&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://jsbin.com/?html,css,console,output">JS Bin&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://jsbeautifier.org/">JS Beautifier&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bogdan-lyashenko.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html">JS Flowchart&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="articles--guides">Articles &amp;amp; Guides&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://www.html5rocks.com/en/tutorials/?page=3">HTML5 Rocks Tutorials&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://samsaffron.com/archive/2015/12/29/websockets-caution-required">WebSockets, Caution Required&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.smashingmagazine.com/2019/08/faster-image-loading-embedded-previews/#determine-byte-offset">Faster Image Loading with Embedded Image Previews&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="javascript-runtime">JavaScript Runtime&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://bun.sh/">Bun&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Software Engineering Resources</title><link>https://ashishdoneriya.github.io/software-engineering-resources.html</link><pubDate>Sat, 20 Jun 2026 02:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/software-engineering-resources.html</guid><description>&lt;ul>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture">What is Enterprise Architecture&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Enterprise_architecture_framework">What is Enterprise Architecture Framework&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://obamawhitehouse.archives.gov/omb/e-gov/FEA">Federal Enterprise Architecture&lt;/a>&lt;/li>
