@@ -17,6 +17,66 @@
 &lt;ul>
 &lt;li>&lt;a href="https://www.upwork.com/">Upwork&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.topcoder.com/">TopCoder&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="books">Books&lt;/h2>
+&lt;h3 id="architecture">Architecture&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.google.com/search?q=Building+Evolutionary+Architectures">Building Evolutionary Architectures&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=The+Software+Architect+Elevator">The Software Architect Elevator&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Patterns+of+Distributed+Systems">Patterns of Distributed Systems&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Collaborative+Software+Design">Collaborative Software Design&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="cloud--solutions-architecture">Cloud &amp;amp; Solutions Architecture&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.google.com/search?q=AWS+for+Solutions+Architects">AWS for Solutions Architects&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Serverless+Architectures+on+AWS">Serverless Architectures on AWS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Solutions+Architect%E2%80%99s+Handbook">Solutions Architect’s Handbook&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="data-engineering">Data Engineering&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.google.com/search?q=Fundamentals+of+Data+Engineering">Fundamentals of Data Engineering&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Deciphering+Data+Architectures">Deciphering Data Architectures&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Data+Pipelines+Pocket+Reference">Data Pipelines Pocket Reference&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Designing+Cloud+Data+Platforms">Designing Cloud Data Platforms&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="streaming--kafka">Streaming &amp;amp; Kafka&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.google.com/search?q=Kafka+in+Action">Kafka in Action&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Streaming+Data+Pipelines+with+Kafka">Streaming Data Pipelines with Kafka&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Learning+Spark">Learning Spark&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Spark+in+Action">Spark in Action&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="security">Security&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.google.com/search?q=Agile+Application+Security">Agile Application Security&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Microservices+Security+in+Action">Microservices Security in Action&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Spring+Security+in+Action">Spring Security in Action&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="microservices--apis">Microservices &amp;amp; APIs&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.google.com/search?q=Cracking+Microservices+Interview">Cracking Microservices Interview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Designing+APIs+with+Swagger+and+OpenAPI">Designing APIs with Swagger and OpenAPI&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="frontend-architecture">Frontend Architecture&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.google.com/search?q=Micro+Frontends+in+Action">Micro Frontends in Action&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="java--spring">Java &amp;amp; Spring&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.google.com/search?q=Grokking+the+Spring+Boot+Interview">Grokking the Spring Boot Interview&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="concurrency--performance">Concurrency &amp;amp; Performance&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.google.com/search?q=Grokking+Concurrency">Grokking Concurrency&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.google.com/search?q=Parallel+and+High+Performance+Computing">Parallel and High Performance Computing&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="engineering-culture--product-thinking">Engineering Culture &amp;amp; Product Thinking&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.google.com/search?q=Think+Like+Amazon">Think Like Amazon&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="kubernetes">Kubernetes&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.google.com/search?q=Kubernetes+in+Action">Kubernetes in Action&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Java Resources</title><link>https://ashishdoneriya.github.io/java-resources.html</link><pubDate>Sat, 20 Jun 2026 01:00:00 +0530</pubDate><guid>https://ashishdoneriya.github.io/java-resources.html</guid><description>&lt;h2 id="articles">Articles&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/HugoMatilla/Effective-JAVA-Summary">Effective Java Summary&lt;/a>&lt;/li>
